@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=User\SisMed.vbp
+Project=Dat\datSisMed.vbp
+Project=Bus\busSisMed.vbp

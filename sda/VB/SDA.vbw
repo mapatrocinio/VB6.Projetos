@@ -1,0 +1,9 @@
+frmProcessoConsultar = 44, 44, 411, 382, , 22, 22, 521, 410, C
+frmSaConsultar = 110, 110, 505, 450, C, 88, 88, 483, 428, C
+frmManutChklstCadastrar = 132, 132, 632, 415, C, 132, 132, 406, 480, C
+frmManutAssuntoCadastrar = 88, 88, 496, 371, C, 0, 0, 319, 348, C
+frmManutPergCadastrar = 88, 88, 355, 436, C, 66, 66, 333, 414, C
+frmManutPergChklstCadastrar = 0, 0, 0, 0, C, 66, 66, 333, 414, C
+MDIsda = 139, 280, 506, 618, C, 110, 110, 477, 448, C
+frmManutTemplateCadastrar = 66, 66, 333, 414, C, 22, 22, 289, 370, C
+Modfuncoes = 88, 88, 455, 426, 

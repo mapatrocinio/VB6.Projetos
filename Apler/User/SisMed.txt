@@ -1,0 +1,4 @@
+20/03/2010 17:04;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'ControleAcesso'. | sql: Select usuario, senha, nivel  FROM ControleAcesso  WHERE usuario =  'MIGUEL'.[clsGeral.ExecutarSQL];Invalid object name 'ControleAcesso'.
+20/03/2010 17:05;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'ControleAcesso'. | sql: Select usuario, senha, nivel  FROM ControleAcesso  WHERE usuario =  'MIGUEL'.[clsGeral.ExecutarSQL];Invalid object name 'ControleAcesso'.
+20/03/2010 17:06;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'ControleAcesso'. | sql: Select usuario, senha, nivel  FROM ControleAcesso  WHERE usuario =  'MIGUEL'.[clsGeral.ExecutarSQL];Invalid object name 'ControleAcesso'.
+20/03/2010 17:06;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'ControleAcesso'. | sql: Select usuario, senha, nivel  FROM ControleAcesso  WHERE usuario =  'MIGUEL'.[clsGeral.ExecutarSQL];Invalid object name 'ControleAcesso'.

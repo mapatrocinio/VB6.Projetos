@@ -1,0 +1,274 @@
+15/01/2010 17:03;20599;CrystalReport;Cannot open SQL server.
+15/01/2010 17:08;20599;CrystalReport;Cannot open SQL server.
+15/01/2010 17:11;20523;CrystalReport;Error in File D:\SisMed\Report\DemoReceb.rpt:
+Invalid group condition.
+15/01/2010 17:12;20523;CrystalReport;Error in File D:\SisMed\Report\DemoReceb.rpt:
+Invalid group condition.
+15/01/2010 17:35;20523;CrystalReport;Error in File D:\SisMed\Report\DemoReceb.rpt:
+Invalid group condition.
+21/01/2010 23:36;-2147217865;[mdlUserFunction.Captura_Config];Invalid object name 'Configuracao'.
+23/01/2010 11:51;-2147217865;[mdlUserFunction.Captura_Config];Invalid object name 'Configuracao'.
+23/01/2010 11:51;-2147217865;[mdlUserFunction.Captura_Config];Invalid object name 'Configuracao'.
+23/01/2010 11:53;-2147217865;[mdlUserFunction.Captura_Config];Invalid object name 'Configuracao'.
+23/01/2010 14:55;-2147217865;[mdlUserFunction.Captura_Config];Invalid object name 'Configuracao'.
+23/01/2010 15:01;20507;CrystalReport;Invalid file name.
+23/01/2010 15:04;20510;CrystalReport;Error in File D:\SisMed\Report\PgtoPrest.rpt:
+Invalid formula name.
+27/01/2010 21:30;6147;SisMed;Column not found, ID
+27/01/2010 22:13;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+27/01/2010 22:16;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+27/01/2010 22:21;6147;SisMed;Column not found, ID
+20/02/2010 00:18;20507;CrystalReport;Invalid file name.
+22/02/2010 23:02;3265;ADODB.Recordset;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+22/02/2010 23:03;3265;ADODB.Recordset;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+22/02/2010 23:04;3265;ADODB.Recordset;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+24/02/2010 22:38;20515;CrystalReport;Error in File D:\SisMed\Report\Procedimento.rpt:
+Error in formula  <Record_Selection>. 
+'{PROCEDIMENTO.PROCEDIMENTO} LIKE {@Procedimento}'
+A string is required here.
+24/02/2010 22:38;20515;CrystalReport;Error in File D:\SisMed\Report\Procedimento.rpt:
+Error in formula  <Record_Selection>. 
+'{PROCEDIMENTO.PROCEDIMENTO} LIKE {@Procedimento}'
+A string is required here.
+24/02/2010 22:41;20515;CrystalReport;Error in File D:\SisMed\Report\Procedimento.rpt:
+Error in formula  <Prestador>. 
+' '*'
+The matching ' for this string is missing.
+03/03/2010 21:06;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'GRUPODESPESA'. | sql: SELECT GRUPODESPESA.PKID, GRUPODESPESA.CODIGO, GRUPODESPESA.DESCRICAO, case GRUPODESPESA.TIPO when 'D' then 'DÉBITO' when 'C' then 'CRÉDITO' else '' end FROM GRUPODESPESA  ORDER BY GRUPODESPESA.CODIGO.[clsGeral.ExecutarSQL];Invalid object name 'GRUPODESPESA'.
+03/03/2010 21:33;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'DESPESA'. | sql: SELECT * FROM DESPESA WHERE SUBGRUPODESPESAID = 3.[clsGeral.ExecutarSQL];Invalid object name 'DESPESA'.
+03/03/2010 21:36;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'FORMAPGTO'. | sql: SELECT FORMAPGTO.PKID, FORMAPGTO.FORMAPGTO FROM FORMAPGTO  ORDER BY FORMAPGTO.FORMAPGTO .[clsGeral.ExecutarSQL];Invalid object name 'FORMAPGTO'.
+03/03/2010 21:37;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'DESPESA'. | sql: SELECT * FROM DESPESA WHERE FORMAPGTOID = 1.[clsGeral.ExecutarSQL];Invalid object name 'DESPESA'.
+03/03/2010 22:43;0;;
+03/03/2010 22:43;0;;
+03/03/2010 22:44;0;;
+03/03/2010 22:44;0;;
+03/03/2010 22:46;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'DESPESA'. | sql: SELECT DESPESA.PKID, DESPESA.TIPO, DESPESA.SEQUENCIAL, case DESPESA.TIPO when 'T' then 'Telefonista' when 'A' then 'Administração' else '' end, convert(varchar(20), GRUPODESPESA.CODIGO) + convert(varchar(20), SUBGRUPODESPESA.CODIGO) + ' - ' + SUBGRUPODESPESA.DESCRICAO, DESPESA.DESCRICAO, DESPESA.VR_PAGO, CONFIGURACAO.TITULO FROM DESPESA LEFT JOIN SUBGRUPODESPESA ON SUBGRUPODESPESA.PKID = DESPESA.SUBGRUPODESPESAID  LEFT JOIN CONFIGURACAO ON CONFIGURACAO.PKID = DESPESA.CONFIGURACAOID  LEFT JOIN GRUPODESPESA ON GRUPODESPESA.PKID = SUBGRUPODESPESA.GRUPODESPESAID  ORDER BY DESPESA.SEQUENCIAL DESC;.[clsGeral.ExecutarSQL];Invalid object name 'DESPESA'.
+03/03/2010 22:49;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'CONFIGURACAOID'. | sql: SELECT DESPESA.PKID, DESPESA.TIPO, DESPESA.SEQUENCIAL, case DESPESA.TIPO when 'T' then 'Telefonista' when 'A' then 'Administração' else '' end, convert(varchar(20), GRUPODESPESA.CODIGO) + convert(varchar(20), SUBGRUPODESPESA.CODIGO) + ' - ' + SUBGRUPODESPESA.DESCRICAO, DESPESA.DESCRICAO, DESPESA.VR_PAGO, CONFIGURACAO.TITULO FROM DESPESA LEFT JOIN SUBGRUPODESPESA ON SUBGRUPODESPESA.PKID = DESPESA.SUBGRUPODESPESAID  LEFT JOIN CONFIGURACAO ON CONFIGURACAO.PKID = DESPESA.CONFIGURACAOID  LEFT JOIN GRUPODESPESA ON GRUPODESPESA.PKID = SUBGRUPODESPESA.GRUPODESPESAID  ORDER BY DESPESA.SEQUENCIAL DESC;.[clsGeral.ExecutarSQL];Invalid column name 'CONFIGURACAOID'.
+03/03/2010 22:51;-2147217900;[mdlUserFunction.RetornaGravaSequencial];Invalid column name 'SEQUENCIALDESP'.
+03/03/2010 22:54;-2147217900;[DatApler.clsDespesa.IncluirDespesa];Invalid column name 'CONFIGURACAOID'. | sql: INSERT INTO DESPESA ( DESCRICAO, VR_PAGO, VALE, SUBGRUPODESPESAID, FORMAPGTOID, DT_PAGAMENTO, SEQUENCIAL, TIPO, DT_VENCIMENTO, VR_PAGAR, LIVROID, NUMEROCHEQUE, USUARIO, TURNOID, CONFIGURACAOID) VALUES ('10201', Null, 'N', 1, 2, Null, 1, 'A', convert(datetime, '21/09/2010',103), 100, 3, '1212', 'MIGUEL', 702, 0)
+03/03/2010 22:56;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+03/03/2010 22:57;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+03/03/2010 22:58;0;;
+03/03/2010 22:58;0;;
+03/03/2010 23:16;-2147217900;[DatApler.clsDespesa.AlterarDespesa];Invalid column name 'CONFIGURACAOID'. | sql: UPDATE DESPESA SET  DESCRICAO = '10210', VR_PAGO = Null, VALE = 'N', SUBGRUPODESPESAID = 2, FORMAPGTOID = 2, DT_VENCIMENTO = convert(datetime, '01/01/2010',103), DT_PAGAMENTO = Null, VR_PAGAR = 100.00, LIVROID = 3, NUMEROCHEQUE = '1212', USUARIOALTDESCR = 'MIGUEL', CONFIGURACAOID = 0 WHERE PKID = 1
+05/03/2010 22:07;3001;ADODB.Recordset;Os argumentos são incorretos, estão fora do intervalo aceitável ou estão em conflito.
+05/03/2010 22:07;9;[frmUserGRArqCons.grdGeral_UnboundReadDataEx];Subscript out of range
+05/03/2010 22:07;9;[frmUserGRArqCons.grdGeral_UnboundReadDataEx];Subscript out of range
+09/03/2010 22:28;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near '+'. | sql: Select TOP 500 TURNO.PKID, TURNO.DATA, DIASDASEMANA.DIADASEMANA, PERIODO.PERIODO + ' - ' inicio + ' as ' + termino AS PERIODO, PRONTUARIO.NOME  FROM PERIODO INNER JOIN TURNO ON PERIODO.PKID = TURNO.PERIODOID  INNER JOIN DIASDASEMANA ON TURNO.DIASDASEMANAID = DIASDASEMANA.PKID  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = TURNO.PRONTUARIOID  WHERE TURNO.STATUS <> 1  AND TURNO.PRONTUARIOID = 1 ORDER BY DATA DESC;.[clsGeral.ExecutarSQL];Line 1: Incorrect syntax near '+'.
+09/03/2010 22:29;-2147217913;[DatAplerDatabase.RunSPReturnRS]Syntax error converting the varchar value ' às ' to a column of data type smallint. | sql: Select TOP 500 TURNO.PKID, TURNO.DATA, DIASDASEMANA.DIADASEMANA, PERIODO.PERIODO + ' - ' + PERIODO.inicio + ' às ' + PERIODO.termino AS PERIODO, PRONTUARIO.NOME  FROM PERIODO INNER JOIN TURNO ON PERIODO.PKID = TURNO.PERIODOID  INNER JOIN DIASDASEMANA ON TURNO.DIASDASEMANAID = DIASDASEMANA.PKID  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = TURNO.PRONTUARIOID  WHERE TURNO.STATUS <> 1  AND TURNO.PRONTUARIOID = 1 ORDER BY DATA DESC;.[clsGeral.ExecutarSQL];Syntax error converting the varchar value ' às ' to a column of data type smallint.
+13/03/2010 11:53;6147;SisMed;Column not found, Descrição
+14/03/2010 02:51;13;SisMed;Type mismatch
+14/03/2010 11:57;20515;CrystalReport;Error in File D:\SisMed\Report\Balanco.rpt:
+Error in formula  <DescrSaldo>. 
+' 'SALDO ANTERIOR ATÉ 1'
+The matching ' for this string is missing.
+25/03/2010 23:13;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'NASCIMENTO'. | sql: SELECT DISTINCT GR.PKID, GR.DATA, GR.SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.NASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID, GR.ARQUIVO, GR.STATUSIMPRESSAO, GR.STATUS FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID WHERE GR.TURNOID IN (932) AND TURNOLABID IS NULL  ORDER BY GR.DATA DESC, GR.SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrenteARQ];Invalid column name 'NASCIMENTO'.
+25/03/2010 23:51;-2147217865;[DatApler.clsRelBalanco.SelecionarRelBalanco];Invalid object name 'RELBALANCO'.
+25/03/2010 23:56;387;[mdlUserFunction.Monta_Menu];'Visible' property can't be set on this control
+25/03/2010 23:57;401;SisMed;Can't show non-modal form when modal form is displayed
+11/04/2010 14:59;94;SisMed;Invalid use of Null
+23/04/2010 14:48;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near 'GRPAGAMENTO'. | sql: SELECT GRPAGAMENTO.PKID, GRPAGAMENTO.DATAINICIO, GRPAGAMENTO.DATATERMINO, PRONTUARIO.NOME FROM GRPAGAMENTO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GRPAGAMENTO.PRESTADORID  WHERE GRPAGAMENTO.STATUS = 'PG' (GRPAGAMENTO.DATAINICIO >= convert(datetime, '23/04/2010',103) OR GRPAGAMENTO.DATATERMINO >= convert(datetime, '23/04/2010',103)) ORDER BY GRPAGAMENTO.DATAINICIO DESC, PRONTUARIO.NOME.[clsGeral.ExecutarSQL];Line 1: Incorrect syntax near 'GRPAGAMENTO'.
+23/04/2010 14:49;9;[frmUserGRPagamentoLis.grdGeral_UnboundReadDataEx];Subscript out of range
+23/04/2010 14:49;9;[frmUserGRPagamentoLis.grdGeral_UnboundReadDataEx];Subscript out of range
+23/04/2010 14:49;9;[frmUserGRPagamentoLis.grdGeral_UnboundReadDataEx];Subscript out of range
+23/04/2010 14:49;9;[frmUserGRPagamentoLis.grdGeral_UnboundReadDataEx];Subscript out of range
+07/05/2010 21:58;53;SisMed;File not found: 'Xa_2.jpg'
+07/05/2010 21:58;5;SisMed;Invalid procedure call or argument
+07/05/2010 23:59;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+07/05/2010 00:16;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+07/05/2010 00:31;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+10/05/2010 20:51;6147;[frmUserGRInc.cmdExcluir_Click];Column not found
+13/05/2010 21:36;-2147217873;[DatAplerDatabase.RunSP].[clsPrestadorEspecialidade.InserirPrestadorEspecialidade];INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_PRESTADORESPECIALIDADE_ESPECIALIDADE'. The conflict occurred in database 'SisMed', table 'PROCEDIMENTO', column 'PKID'. | sql: INSERT INTO PRESTADORESPECIALIDADE (PRONTUARIOID, ESPECIALIDADEID) VALUES (4, 5);
+13/05/2010 21:45;-2147217873;[DatAplerDatabase.RunSP].[clsPrestadorEspecialidade.InserirPrestadorEspecialidade];INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_PRESTADORESPECIALIDADE_ESPECIALIDADE'. The conflict occurred in database 'SisMed', table 'PROCEDIMENTO', column 'PKID'. | sql: INSERT INTO PRESTADORESPECIALIDADE (PRONTUARIOID, ESPECIALIDADEID) VALUES (4, 5);
+13/05/2010 21:47;9;[frmUserProntuarioInc.grdGeral_UnboundReadDataEx];Subscript out of range
+13/05/2010 21:47;9;[frmUserProntuarioInc.grdGeral_UnboundReadDataEx];Subscript out of range
+24/05/2010 21:25;-2147217873;[DatAplerDatabase.RunSP].[clsGRPagamento.ExcluirGRPagamento];DELETE statement conflicted with COLUMN REFERENCE constraint 'FK_GRPAGAMENTO_GRPGTO'. The conflict occurred in database 'SisMed', table 'GRPGTO', column 'GRPAGAMENTOID'. | sql: DELETE FROM GRPAGAMENTO WHERE GRPAGAMENTO.PKID = 654
+27/05/2010 22:21;13;SisMed;Type mismatch
+27/05/2010 22:21;13;SisMed;Type mismatch
+27/05/2010 22:21;13;SisMed;Type mismatch
+27/05/2010 22:22;13;SisMed;Type mismatch
+27/05/2010 22:26;13;SisMed;Type mismatch
+23/06/2010 21:19;6;SisMed;Overflow
+23/06/2010 21:20;6;SisMed;Overflow
+16/08/2010 23:39;91;SisMed;Object variable or With block variable not set
+16/08/2010 23:44;3704;ADODB.Recordset;Operação não permitida quando o objeto está fechado.
+17/08/2010 00:19;-2147217904;[mdlUserFunction.RetornaGravaCampoSequencialSenha];Procedure 'SP_RETORNAGRAVASEQUENCIALSENHA' expects parameter '@PRESTADORID', which was not supplied. | sql: 0
+17/08/2010 00:20;-2147217904;[mdlUserFunction.RetornaGravaCampoSequencialSenha];Procedure 'SP_RETORNAGRAVASEQUENCIALSENHA' expects parameter '@PRESTADORID', which was not supplied. | sql: 0
+17/08/2010 00:31;91;SisMed;Object variable or With block variable not set
+17/08/2010 00:35;-2147217913;[mdlUserFunction.RetornaGravaCampoSequencialSenha];Error converting data type varchar to int. | sql: 0
+17/08/2010 00:37;-2147217913;[mdlUserFunction.RetornaGravaCampoSequencialSenha];Syntax error converting datetime from character string. | sql: 0
+31/08/2010 22:26;-2147217900;[mdlUserFunction.RetornaGravaCampoSequencialSenha];Could not find stored procedure 'SP_RETORNAGRAVASEQUENCIALSENHA'. | sql: 0
+31/08/2010 22:32;-2147217900;[mdlUserFunction.RetornaGravaCampoSequencialSenha];Could not find stored procedure 'SP_RETORNAGRAVASEQUENCIALSENHA'. | sql: 0
+02/09/2010 23:47;-2147217865;[DatAplerDatabase.RunSPReturnRS]Invalid object name 'GRPGT'. | sql: SELECT MAX(GRPGTO.GRPAGAMENTOID), MAX(GR.STATUS), GR.PKID, MAX(PRONTUARIO.NOME) AS NOME, MAX(PACIENTE.NOME) AS NOME_PACIENTE, MAX(FUNCIONARIO.NOME) AS FUNC, MAX(GR.SEQUENCIAL) AS SEQUENCIAL, MAX(GR.SENHA) AS SENHA, MAX(GR.DATA) AS DATA, SUM(GRPROCEDIMENTO.VALOR) AS VALOR  From GR  INNER JOIN PRONTUARIO AS FUNCIONARIO ON GR.FUNCIONARIOID = FUNCIONARIO.PKID  LEFT JOIN GRPROCEDIMENTO ON GR.PKID = GRPROCEDIMENTO.GRID  INNER JOIN PRONTUARIO PACIENTE ON GR.PRONTUARIOID = PACIENTE.PKID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = ATENDE.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID  LEFT JOIN PRESTADORPROCEDIMENTO ON PRESTADORPROCEDIMENTO.PROCEDIMENTOID = GRPROCEDIMENTO.PROCEDIMENTOID            AND PRESTADORPROCEDIMENTO.PRONTUARIOID = ATENDE.PRONTUARIOID  LEFT JOIN GRPGTO ON GR.PKID = GRPGTO.GRID  WHERE  TURNO.DATA >= convert(datetime, '02/09/2010 00:00',103) AND TURNO.DATA < convert(datetime, '03/09/2010 00:00',103) AND GR.STATUS = 'F' AND GR.PKID IN (SELECT TOP 1 GRID FROM GRPGT WHERE GRPGTO.GRID = GR.PKID) GROUP BY GR.PKID  ORDER BY GR.SENHA, GR.SEQUENCIAL.[clsGeral.ExecutarSQL];Invalid object name 'GRPGT'.
+12/09/2010 22:08;20515;CrystalReport;Error in File D:\SisMed\report\ReceitaPrest.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+A boolean is required here.
+12/09/2010 22:09;20515;CrystalReport;Error in File D:\SisMed\report\ReceitaPrest.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+A boolean is required here.
+21/11/2010 19:21;-2147217843;[DatAplerDatabase.RunSPReturnRS]Login failed for user 'SA'. | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PRONTUARIOID, PRONTUARIO.NOME  FROM FUNCIONARIO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = FUNCIONARIO.PRONTUARIOID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];Login failed for user 'SA'.
+21/11/2010 19:21;-2147217843;[DatAplerDatabase.RunSPReturnRS]Login failed for user 'SA'. | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PRONTUARIOID, PRONTUARIO.NOME  FROM FUNCIONARIO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = FUNCIONARIO.PRONTUARIOID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];Login failed for user 'SA'.
+21/11/2010 19:22;-2147217843;[DatAplerDatabase.RunSPReturnRS]Login failed for user 'SA'. | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PRONTUARIOID, PRONTUARIO.NOME  FROM FUNCIONARIO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = FUNCIONARIO.PRONTUARIOID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];Login failed for user 'SA'.
+21/11/2010 19:24;53;SisMed;File not found: 'Xa_2.jpg'
+21/11/2010 19:24;5;SisMed;Invalid procedure call or argument
+02/12/2010 22:29;424;[mdlUserFunction.PreencheCombo];Object required
+02/12/2010 22:31;424;[mdlUserFunction.PreencheCombo];Object required
+11/01/2011 21:35;-2147467259;[DatAplerDatabase.RunSPReturnRS]Cannot open database requested in login 'SisMed'. Login fails. | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PRONTUARIOID, PRONTUARIO.NOME  FROM FUNCIONARIO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = FUNCIONARIO.PRONTUARIOID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];Cannot open database requested in login 'SisMed'. Login fails.
+01/02/2011 22:10;-2147217873;[DatApler.clsDespesa.IncluirDespesa];INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_TURNO_DESPESA'. The conflict occurred in database 'SisMed', table 'TURNO', column 'PKID'. | sql: INSERT INTO DESPESA ( DESCRICAO, VR_PAGO, VALE, SUBGRUPODESPESAID, FORMAPGTOID, DT_PAGAMENTO, SEQUENCIAL, TIPO, DT_VENCIMENTO, VR_PAGAR, LIVROID, NUMEROCHEQUE, USUARIO, TURNOID) VALUES ('KJJ', 100, 'N', 1, 2, convert(datetime, '01/02/2011',103), 5, 'A', convert(datetime, '01/02/2011',103), 100, Null, Null, 'MIG', 0)
+22/04/2011 23:40;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+There is an error in this formula.  Please edit it for more details.
+22/04/2011 23:41;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+There is an error in this formula.  Please edit it for more details.
+22/04/2011 23:41;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+There is an error in this formula.  Please edit it for more details.
+22/04/2011 23:44;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+There is an error in this formula.  Please edit it for more details.
+22/04/2011 23:44;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+There is an error in this formula.  Please edit it for more details.
+22/04/2011 23:45;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <Record_Selection>. 
+'{TURNO.DATA} >= {@DataIni} And'
+There is an error in this formula.  Please edit it for more details.
+31/07/2011 21:36;3265;[mdlUserImpressao.IMP_COMP_GR];O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+14/09/2011 21:09;-2147467259;[DatAplerDatabase.RunSPReturnRS][DBNETLIB][ConnectionOpen (Connect()).]SQL Server inexistente ou acesso negado. | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PRONTUARIOID, PRONTUARIO.NOME  FROM FUNCIONARIO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = FUNCIONARIO.PRONTUARIOID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];[DBNETLIB][ConnectionOpen (Connect()).]SQL Server inexistente ou acesso negado.
+24/09/2011 16:53;0;[frmUserRelContas.Form_Load];
+24/09/2011 16:56;0;[frmUserRelContas.cmdRelatorio_Click];
+29/09/2011 00:34;0;[frmUserRelContas.cmdRelatorio_Click];
+14/10/2011 21:36;0;[frmUserRelContas.cmdRelatorio_Click];
+14/10/2011 21:36;0;[frmUserRelContas.cmdRelatorio_Click];
+14/10/2011 21:45;0;[frmUserRelContas.cmdRelatorio_Click];
+14/10/2011 21:53;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <MesAnoTurno>. 
+'right({vw_cons_t_Financ.MESANOTURNO},2) '
+This field name is not known.
+14/10/2011 21:54;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <MesAnoTurno>. 
+'right({vw_cons_t_Financ.MESANOTURNO},2) '
+This field name is not known.
+14/10/2011 21:55;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <MesAnoTurno>. 
+'right({vw_cons_t_Financ.MESANOTURNO},2) '
+This field name is not known.
+26/10/2011 23:58;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'DESCRICAO'. | sql: SET NOCOUNT ON; INSERT INTO GR (PRONTUARIOID, TURNOID, TURNOLABID, ATENDEID, ESPECIALIDADEID, SEQUENCIAL, SENHA, DATA, STATUS, STATUSIMPRESSAO, FUNCIONARIOID, INDCORTESIA, USUARIOCORT, DESCRICAO) VALUES ( 24281, 1274, Null, 145, 15, 1, 1, convert(datetime, '26/10/2011 23:58',103), 'I', 'N', 1, 'N', Null, 'TESTE DO PESINHO');SELECT @@IDENTITY; SET NOCOUNT OFF;.[clsGR.InserirGR];Invalid column name 'DESCRICAO'.
+31/12/2011 12:49;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'DESCRICAO'. | sql: SET NOCOUNT ON; INSERT INTO GR (PRONTUARIOID, TURNOID, TURNOLABID, ATENDEID, ESPECIALIDADEID, SEQUENCIAL, SENHA, DATA, STATUS, STATUSIMPRESSAO, FUNCIONARIOID, INDCORTESIA, USUARIOCORT, DESCRICAO) VALUES ( 20831, 1276, Null, 148, 15, 1, 1, convert(datetime, '31/12/2011 12:49',103), 'I', 'N', 1, 'N', Null, 'TESTE');SELECT @@IDENTITY; SET NOCOUNT OFF;.[clsGR.InserirGR];Invalid column name 'DESCRICAO'.
+04/02/2012 00:55;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'PRESTADOR'. | sql: SELECT DISTINCT GR.PKID, GR.DATA, GR.SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.DTNASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID, GR.ARQUIVO, GR.STATUSIMPRESSAO, GR.STATUS FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID WHERE GR.TURNOID IN (0) AND GR.DATA >= convert(datetime, '04/02/2012 00:00',103) AND GR.DATA < convert(datetime, '05/02/2012 00:00',103) AND PRESTADOR = 24282 ORDER BY GR.DATA DESC, GR.SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Invalid column name 'PRESTADOR'.
+04/02/2012 01:17;-2147217873;[DatAplerDatabase.RunSP].[clsFuncionario.InserirFuncionario];Cannot insert the value NULL into column 'USUARIO', table 'SisMed.dbo.FUNCIONARIO'; column does not allow nulls. INSERT fails. | sql: INSERT INTO FUNCIONARIO (PRONTUARIOID, USUARIO, SENHA, NIVEL, INDEXCLUIDO) VALUES ( 24283, Null, Null, Null, 'N')
+04/02/2012 01:20;-2147217873;[DatAplerDatabase.RunSP].[clsFuncionario.InserirFuncionario];Cannot insert the value NULL into column 'USUARIO', table 'SisMed.dbo.FUNCIONARIO'; column does not allow nulls. INSERT fails. | sql: INSERT INTO FUNCIONARIO (PRONTUARIOID, USUARIO, SENHA, NIVEL, INDEXCLUIDO) VALUES ( 24284, Null, Null, Null, 'N')
+04/02/2012 01:24;-2147217873;[DatAplerDatabase.RunSP].[clsPrestadorEspecialidade.InserirPrestadorEspecialidade];INSERT statement conflicted with COLUMN FOREIGN KEY constraint 'FK_PRESTADORESPECIALIDADE_PRESTADOR'. The conflict occurred in database 'SisMed', table 'PRESTADOR', column 'PRONTUARIOID'. | sql: INSERT INTO PRESTADORESPECIALIDADE (PRONTUARIOID, ESPECIALIDADEID) VALUES (24285, 14);
+04/02/2012 11:11;3265;ADODB.Recordset;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+04/02/2012 11:51;3001;ADODB.Recordset;Os argumentos são incorretos, estão fora do intervalo aceitável ou estão em conflito.
+04/02/2012 11:52;3001;ADODB.Recordset;Os argumentos são incorretos, estão fora do intervalo aceitável ou estão em conflito.
+04/02/2012 19:21;6147;SisMed;Column not found, Especialidade
+04/02/2012 20:28;6147;SisMed;Column not found, ID
+04/02/2012 20:28;364;SisMed;Object was unloaded
+04/02/2012 23:17;-2147217900;[DatAplerDatabase.RunSP];Invalid column name 'TRABCOMSCANER'. | sql: INSERT INTO ATENDIMENTO (GRID, DATA, TRABCOMSCANER, PATHARQUIVO, NOMEARQUIVO, DESCRICAO) VALUES ( 42356, '04/02/2012 23:15', 'N', Null, Null, 'BLA BLA BLA, BLA BLA, BLA
+
+BLA BLA BLA, BLA BLA, BLA
+
+
+BLA BLA BLA, BLA BLA, BLA
+
+')
+04/02/2012 00:13;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'GRID'. | sql: Select PRONTUARIO.PKID, PRONTUARIO.NOME from GR  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  WHERE GR.GRID = 42356.[clsGeral.ExecutarSQL];Invalid column name 'GRID'.
+04/02/2012 00:13;364;SisMed;Object was unloaded
+04/02/2012 00:24;-2147217900;[DatAplerDatabase.RunSPReturnRS]The text, ntext, or image data type cannot be selected as DISTINCT. | sql: SELECT DISTINCT ATENDIMENTO.DATA, ATENDIMENTO.DESCRICAO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME FROM ATENDIMENTO  INNER JOIN GR ON GR.PKID = ATENDIMENTO.GRID  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID WHERE GR.PKID = 42356 AND PRONTUARIO.PKID = 19526 AND ATENDIMENTO.INDSCANER = 'N' ORDER BY ATENDIMENTO.DATA DESC .[clsGeral.ExecutarSQL];The text, ntext, or image data type cannot be selected as DISTINCT.
+04/02/2012 11:30;5;SisMed;Invalid procedure call or argument
+04/02/2012 11:30;364;SisMed;Object was unloaded
+04/02/2012 11:31;5;SisMed;Invalid procedure call or argument
+04/02/2012 11:31;364;SisMed;Object was unloaded
+04/02/2012 12:30;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near ';'. | sql: Select PROCEDIMENTO.PROCEDIMENTO, PROCEDIMENTORECEITA.TIPO, PROCEDIMENTORECEITA.DESCRICAO FROM PROCEDIMENTO LEFT JOIN PROCEDIMENTORECEITA ON PROCEDIMENTO.PKID = PROCEDIMENTORECEITA.PROCEDIMENTOID  WHERE PROCEDIMENTORECEITA.STATUS = 'A'   AND PROCEDIMENTO.PKID IN (SELECT GRPROCEDIMENTO.PRCEDIMENTOID FROM  GRPROCEDIMENTO                              WHERE GRPROCEDIMENTO.GRID = 42359 ORDER BY PROCEDIMENTO.PROCEDIMENTO, PROCEDIMENTORECEITA.TIPO;.[clsGeral.ExecutarSQL];Line 1: Incorrect syntax near ';'.
+04/02/2012 12:31;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'PRCEDIMENTOID'. | sql: Select PROCEDIMENTO.PROCEDIMENTO, PROCEDIMENTORECEITA.TIPO, PROCEDIMENTORECEITA.DESCRICAO FROM PROCEDIMENTO LEFT JOIN PROCEDIMENTORECEITA ON PROCEDIMENTO.PKID = PROCEDIMENTORECEITA.PROCEDIMENTOID  WHERE PROCEDIMENTORECEITA.STATUS = 'A'   AND PROCEDIMENTO.PKID IN (SELECT GRPROCEDIMENTO.PRCEDIMENTOID FROM  GRPROCEDIMENTO                              WHERE GRPROCEDIMENTO.GRID = 42359) ORDER BY PROCEDIMENTO.PROCEDIMENTO, PROCEDIMENTORECEITA.TIPO;.[clsGeral.ExecutarSQL];Invalid column name 'PRCEDIMENTOID'.
+04/02/2012 12:36;450;[frmUserAtendimentoRecCons.grdGeral_UnboundReadDataEx];Wrong number of arguments or invalid property assignment
+04/02/2012 15:03;53;SisMed;File not found: 'C:\SisMed\images\icons\xxxscaner.bmp'
+04/02/2012 15:03;364;SisMed;Object was unloaded
+04/02/2012 15:25;20;SisMed;Resume without error
+04/02/2012 15:25;364;SisMed;Object was unloaded
+04/02/2012 16:04;424;SisMed;Object required
+04/02/2012 18:07;58;SisMed;File already exists
+04/02/2012 19:14;0;frmUserAtendimentoInc.grdAtendimento_Click;
+04/02/2012 19:14;0;frmUserAtendimentoInc.grdAtendimento_Click;
+04/02/2012 19:15;0;frmUserAtendimentoInc.grdAtendimento_Click;
+04/02/2012 19:16;0;frmUserAtendimentoInc.grdAtendimento_Click;
+04/02/2012 19:16;0;frmUserAtendimentoInc.grdAtendimento_Click;
+04/02/2012 19:17;0;frmUserAtendimentoInc.grdAtendimento_Click;
+04/02/2012 19:17;0;frmUserAtendimentoInc.grdAtendimento_Click;
+04/02/2012 19:18;53;frmUserAtendimentoInc.grdAtendimento_Click;File not found: 'C:\SISMED\SCANER\REDE\19526\\42361_20120204180617'
+04/02/2012 19:19;53;frmUserAtendimentoInc.grdAtendimento_Click;File not found: 'C:\SISMED\SCANER\REDE\19526\\42361_20120204180617'
+04/02/2012 19:19;53;frmUserAtendimentoInc.grdAtendimento_Click;File not found: 'C:\SISMED\SCANER\REDE\19526\\42361_20120204180617'
+04/02/2012 19:19;53;frmUserAtendimentoInc.grdAtendimento_Click;File not found: 'C:\SISMED\SCANER\REDE\19526\\42361_20120204180617'
+04/02/2012 19:19;53;frmUserAtendimentoInc.grdAtendimento_Click;File not found: 'C:\SISMED\SCANER\REDE\19526\\42361_20120204180617'
+04/02/2012 19:19;53;frmUserAtendimentoInc.grdAtendimento_Click;File not found: 'C:\SISMED\SCANER\REDE\19526\\42361_20120204180617'
+04/02/2012 19:19;53;frmUserAtendimentoInc.grdAtendimento_Click;File not found: 'C:\SISMED\SCANER\REDE\19526\\42361_20120204180617'
+04/02/2012 23:13;91;SisMed;Object variable or With block variable not set
+04/02/2012 03:37;-2147217900;[DatAplerDatabase.RunSPReturnRS]Incorrect syntax near the keyword 'THEN'. | sql: SELECT DISTINCT GR.PKID, GR.DATA, GR.SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.DTNASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID,  CASE    WHEN GR.STATUS = 'N' AND DATEDIFF ( d, GR.DATA , convert(datetime, '04/02/2012 03:37',103) ) >  THEN 'E0'    ELSE GR.STATUS END FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID WHERE (GR.DATA >= convert(datetime, '04/02/2012 00:00',103) AND GR.DATA < convert(datetime, '05/02/2012 00:00',103) AND GR.STATUS = 'F') OR (GR.STATUS IN ('N','L'))  OR (GR.DATACONFIRMAEXPIRACAO >= convert(datetime, '04/02/2012 00:00',103) AND GR.DATACONFIRMAEXPIRACAO < convert(datetime, '05/02/2012 00:00',103) AND GR.STATUS = 'E') ORDER BY GR.DATA DESC, GR.SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrenteFIN];Incorrect syntax near the keyword 'THEN'.
+09/02/2012 03:07;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near 'GR'. | sql: SELECT DISTINCT GR.PKID, GR.DATA, GR.SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.DTNASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID, GR.STATUS FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID WHERE ((STATUS = 'F' OR STATUS = 'A') GR.DATA >= convert(datetime, '09/02/2012 00:00',103) AND GR.DATA < convert(datetime, '10/02/2012 00:00',103)) AND PRESTADOR.PKID = 24286 ORDER BY GR.DATA DESC, GR.SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Line 1: Incorrect syntax near 'GR'.
+09/02/2012 03:08;-2147217900;[DatAplerDatabase.RunSPReturnRS]Ambiguous column name 'STATUS'. | sql: SELECT DISTINCT GR.PKID, GR.DATA, GR.SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.DTNASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID, GR.STATUS FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID WHERE ((STATUS = 'F' OR STATUS = 'A') AND GR.DATA >= convert(datetime, '09/02/2012 00:00',103) AND GR.DATA < convert(datetime, '10/02/2012 00:00',103)) AND PRESTADOR.PKID = 24286 ORDER BY GR.DATA DESC, GR.SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Ambiguous column name 'STATUS'.
+10/02/2012 02:40;400;frmUserAtendimentoInc.grdAtendimento_Click;Form already displayed; can't show modally
+25/02/2012 16:05;5;SisMed;Invalid procedure call or argument
+25/02/2012 16:05;53;SisMed;File not found
+25/02/2012 18:32;-2147217900;[mdlUserFunction.PreencheCombo];The column prefix 'PRONTURAIO' does not match with a table name or alias name used in the query.
+25/02/2012 18:32;364;SisMed;Object was unloaded
+25/02/2012 18:32;-2147217900;[mdlUserFunction.PreencheCombo];The column prefix 'PRONTURAIO' does not match with a table name or alias name used in the query.
+25/02/2012 18:32;364;SisMed;Object was unloaded
+25/02/2012 18:33;-2147217900;[mdlUserFunction.PreencheCombo];The column prefix 'PRONTURAIO' does not match with a table name or alias name used in the query.
+25/02/2012 18:33;364;SisMed;Object was unloaded
+25/02/2012 18:57;3265;ADODB.Recordset;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+04/03/2012 16:16;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'PRESTADOR_NOME'. | sql: SELECT DISTINCT GR.PKID, ATENDIMENTO.INDSCANER, GR.DATA, GR.SEQUENCIAL, PRONTUARIO.NOME , PRONTUARIO.DTNASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME AS PRESTADOR_NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID, GR.STATUS FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID  LEFT JOIN ATENDIMENTO ON ATENDIMENTO.GRID = GR.PKID WHERE (((GR.STATUS = 'F' OR GR.STATUS = 'A') AND GR.DATA >= convert(datetime, '04/03/2012 00:00',103) AND GR.DATA < convert(datetime, '05/03/2012 00:00',103)) OR (GR.STATUS = 'L') OR (GR.STATUS = 'P' AND ATENDIMENTO.DATA >= convert(datetime, '04/03/2012 00:00',103) AND ATENDIMENTO.DATA < convert(datetime, '05/03/2012 00:00',103)))  AND PRESTADOR_NOME = 'ABDON GONCALVES' ORDER BY GR.DATA DESC, GR.SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Invalid column name 'PRESTADOR_NOME'.
+04/03/2012 16:38;400;frmUserAtendimentoInc.grdAtendimento_Click;Form already displayed; can't show modally
+04/03/2012 17:10;400;frmUserAtendimentoInc.grdAtendimento_Click;Form already displayed; can't show modally
+04/03/2012 17:11;400;frmUserAtendimentoInc.grdAtendimento_Click;Form already displayed; can't show modally
+04/03/2012 17:11;400;frmUserAtendimentoInc.grdAtendimento_Click;Form already displayed; can't show modally
+04/03/2012 17:11;400;frmUserAtendimentoInc.grdAtendimento_Click;Form already displayed; can't show modally
+27/03/2012 22:58;13;SisMed;Type mismatch
+27/03/2012 22:58;0;frmUserAtendimentoInc.tabDetalhes;
+19/04/2012 23:51;-2147217908;[DatAplerDatabase.RunSPReturnRS]O comando de texto não foi definido para o objeto de comando. | sql: .[clsGR.CapturaGRTurnoCorrentePRE];O comando de texto não foi definido para o objeto de comando.
+19/04/2012 23:52;-2147217908;[DatAplerDatabase.RunSPReturnRS]O comando de texto não foi definido para o objeto de comando. | sql: .[clsGR.CapturaGRTurnoCorrentePRE];O comando de texto não foi definido para o objeto de comando.
+19/04/2012 02:46;13;SisMed;Type mismatch
+21/04/2012 03:11;5;SisMed.[mdlUserFuncion.ValidaCamposArquivoScanner];Invalid procedure call or argument
+21/04/2012 07:30;5;SisMed.[mdlUserFuncion.ValidaCamposArquivoScanner];Invalid procedure call or argument
+21/04/2012 08:30;6;[GlobalFunction.Formata_Dados].[mdlUserFuncion.ValidaCamposArquivoScanner];Overflow
+21/04/2012 08:30;6;[GlobalFunction.Formata_Dados].[mdlUserFuncion.ValidaCamposArquivoScanner];Overflow
+21/04/2012 08:31;6;[GlobalFunction.Formata_Dados].[mdlUserFuncion.ValidaCamposArquivoScanner];Overflow
+21/04/2012 09:59;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near 'ATENDIMENTO'. | sql: SELECT DISTINCT 0 AS GR_ID, ATENDIMENTO.INDSCANER, ATENDIMENTO.DATA  AS GR_DATA, '' AS GR_SEQUENCIAL, PRONTUARIO.NOME , PRONTUARIO.DTNASCIMENTO, '' AS ESPECIALIDADE, '' AS PRESTADOR_NOME, '' AS SALA_NUMERO,  '' AS FUNCIONARIO_NOME, PRONTUARIO.PKID, '' AS GR_STATUS FROM ATENDIMENTO  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = ATENDIMENTO.PRONTUARIOID WHERE ((ATENDIMENTO.DATA >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATA < convert(datetime, '22/04/2012 00:00',103)) OR (ATENDIMENTO.DATAIMPORTACAO >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATAIMPORTACAO < convert(datetime, '22/04/2012 00:00',103)))  AND ATENDIMENTO.INDSCANER = 'A' ORDER BY GR_DATA DESC, GR_SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Line 1: Incorrect syntax near 'ATENDIMENTO'.
+21/04/2012 10:01;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near 'ATENDIMENTO'. | sql: SELECT DISTINCT 0 AS GR_ID, ATENDIMENTO.INDSCANER, ATENDIMENTO.DATA AS GR_DATA, '' AS GR_SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.DTNASCIMENTO, '' AS ESPECIALIDADE, '' AS PRESTADOR_NOME, '' AS SALA_NUMERO,  '' AS FUNCIONARIO_NOME, PRONTUARIO.PKID, '' AS GR_STATUS FROM ATENDIMENTO  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = ATENDIMENTO.PRONTUARIOID WHERE ((ATENDIMENTO.DATA >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATA < convert(datetime, '22/04/2012 00:00',103)) OR (ATENDIMENTO.DATAIMPORTACAO >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATAIMPORTACAO < convert(datetime, '22/04/2012 00:00',103)))  AND ATENDIMENTO.INDSCANER = 'A' ORDER BY GR_DATA DESC, GR_SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Line 1: Incorrect syntax near 'ATENDIMENTO'.
+21/04/2012 10:02;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near 'ATENDIMENTO'. | sql: SELECT DISTINCT GR.PKID, ATENDIMENTO.INDSCANER, GR.DATA AS GR_DATA, GR.SEQUENCIAL AS GR_SEQUENCIAL, PRONTUARIO.NOME , PRONTUARIO.DTNASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME AS PRESTADOR_NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID, GR.STATUS FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID  LEFT JOIN ATENDIMENTO ON ATENDIMENTO.GRID = GR.PKID WHERE (((GR.STATUS = 'F' OR GR.STATUS = 'A') AND GR.DATA >= convert(datetime, '21/04/2012 00:00',103) AND GR.DATA < convert(datetime, '22/04/2012 00:00',103)) OR (GR.STATUS = 'L') OR (GR.STATUS = 'P' AND ATENDIMENTO.DATA >= convert(datetime, '21/04/2012 00:00',103) AND ATENDIMENTO.DATA < convert(datetime, '22/04/2012 00:00',103)))  AND ATENDIMENTO.INDSCANER = 'S' UNION ALL SELECT DISTINCT 0 AS GR_ID, ATENDIMENTO.INDSCANER, ATENDIMENTO.DATA AS GR_DATA, '' AS GR_SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.DTNASCIMENTO, '' AS ESPECIALIDADE, '' AS PRESTADOR_NOME, '' AS SALA_NUMERO,  '' AS FUNCIONARIO_NOME, PRONTUARIO.PKID, '' AS GR_STATUS FROM ATENDIMENTO  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = ATENDIMENTO.PRONTUARIOID WHERE ((ATENDIMENTO.DATA >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATA < convert(datetime, '22/04/2012 00:00',103)) OR (ATENDIMENTO.DATAIMPORTACAO >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATAIMPORTACAO < convert(datetime, '22/04/2012 00:00',103)))  AND ATENDIMENTO.INDSCANER = 'A' ORDER BY GR_DATA DESC, GR_SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Line 1: Incorrect syntax near 'ATENDIMENTO'.
+21/04/2012 10:05;-2147217900;[DatAplerDatabase.RunSPReturnRS]Line 1: Incorrect syntax near 'ATENDIMENTO'. | sql: SELECT DISTINCT GR.PKID, ATENDIMENTO.INDSCANER, GR.DATA AS GR_DATA, GR.SEQUENCIAL AS GR_SEQUENCIAL, PRONTUARIO.NOME , PRONTUARIO.DTNASCIMENTO, ESPECIALIDADE.ESPECIALIDADE, PRESTADOR.NOME AS PRESTADOR_NOME, SALA.NUMERO AS SALA_NUMERO,  '(' + FUNC.NIVEL + ') ' + FUNCIONARIO.NOME, PRONTUARIO.PKID, GR.STATUS FROM GR INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = GR.PRONTUARIOID  INNER JOIN TURNO ON TURNO.PKID = GR.TURNOID    OR TURNO.PKID = GR.TURNOLABID  INNER JOIN ATENDE ON ATENDE.PKID = GR.ATENDEID  INNER JOIN SALA ON SALA.PKID = ATENDE.SALAID  INNER JOIN PRONTUARIO AS PRESTADOR ON PRESTADOR.PKID = ATENDE.PRONTUARIOID  INNER JOIN PRONTUARIO AS FUNCIONARIO ON FUNCIONARIO.PKID = GR.FUNCIONARIOID  INNER JOIN FUNCIONARIO AS FUNC ON FUNCIONARIO.PKID = FUNC.PRONTUARIOID  INNER JOIN ESPECIALIDADE ON ESPECIALIDADE.PKID = GR.ESPECIALIDADEID  LEFT JOIN ATENDIMENTO ON ATENDIMENTO.GRID = GR.PKID WHERE (((GR.STATUS = 'F' OR GR.STATUS = 'A') AND GR.DATA >= convert(datetime, '21/04/2012 00:00',103) AND GR.DATA < convert(datetime, '22/04/2012 00:00',103)) OR (GR.STATUS = 'L') OR (GR.STATUS = 'P' AND ATENDIMENTO.DATA >= convert(datetime, '21/04/2012 00:00',103) AND ATENDIMENTO.DATA < convert(datetime, '22/04/2012 00:00',103)))  AND ATENDIMENTO.INDSCANER = 'S' UNION ALL SELECT DISTINCT 0 AS GR_ID, ATENDIMENTO.INDSCANER, ATENDIMENTO.DATA AS GR_DATA, '' AS GR_SEQUENCIAL, PRONTUARIO.NOME, PRONTUARIO.DTNASCIMENTO, '' AS ESPECIALIDADE, '' AS PRESTADOR_NOME, '' AS SALA_NUMERO,  '' AS FUNCIONARIO_NOME, PRONTUARIO.PKID, '' AS GR_STATUS FROM ATENDIMENTO  INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = ATENDIMENTO.PRONTUARIOID WHERE ((ATENDIMENTO.DATA >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATA < convert(datetime, '22/04/2012 00:00',103)) OR (ATENDIMENTO.DATAIMPORTACAO >= convert(datetime, '21/04/2012 00:00',103) ATENDIMENTO.DATAIMPORTACAO < convert(datetime, '22/04/2012 00:00',103)))  AND ATENDIMENTO.INDSCANER = 'A' ORDER BY GR_DATA DESC, GR_SEQUENCIAL DESC .[clsGR.CapturaGRTurnoCorrentePRE];Line 1: Incorrect syntax near 'ATENDIMENTO'.
+30/04/2012 12:42;380;SisMed;Invalid property value
+30/04/2012 12:42;380;SisMed;Invalid property value
+30/04/2012 12:44;20515;CrystalReport;Error in File C:\SisMed\report\GRAtend.rpt:
+Error in formula  <FuncionarioId>. 
+' <TODOS>'
+The remaining text does not appear to be part of the formula.
+30/04/2012 12:47;20515;CrystalReport;Error in File C:\SisMed\report\GRAtend.rpt:
+Error in formula  <FuncionarioId>. 
+' AVANI SOUSA AMARAL'
+The remaining text does not appear to be part of the formula.
+10/05/2012 00:29;424;SisMed;Object required
+09/09/2012 18:08;91;SisMed;Object variable or With block variable not set
+09/09/2012 18:09;91;SisMed;Object variable or With block variable not set
+09/09/2012 21:25;-2147467259;[DatAplerDatabase.RunSPReturnRS]Cannot open database requested in login 'SisMed'. Login fails. | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PRONTUARIOID, PRONTUARIO.NOME  FROM FUNCIONARIO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = FUNCIONARIO.PRONTUARIOID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];Cannot open database requested in login 'SisMed'. Login fails.
+09/09/2012 21:25;-2147467259;[DatAplerDatabase.RunSPReturnRS]Cannot open database requested in login 'SisMed'. Login fails. | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PRONTUARIOID, PRONTUARIO.NOME  FROM FUNCIONARIO INNER JOIN PRONTUARIO ON PRONTUARIO.PKID = FUNCIONARIO.PRONTUARIOID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];Cannot open database requested in login 'SisMed'. Login fails.
+10/09/2012 00:20;20510;CrystalReport;Error in File C:\SisMed\report\GRCancelada.rpt:
+Invalid formula name.
+10/09/2012 01:49;424;SisMed;Object required
+16/09/2012 06:44;380;MaskEdBox;Invalid property value
+16/09/2012 06:48;20507;CrystalReport;Invalid file name.
+16/09/2012 06:49;20507;CrystalReport;Invalid file name.
+17/09/2012 05:01;20515;CrystalReport;Error in File C:\SisMed\report\ReceitaComparativoMensal.rpt:
+Error in formula  <MesAnoTurno>. 
+'right({vw_cons_t_Financ.MESANOTURNO},2) '
+This field name is not known.
+30/10/2012 04:59;91;SisMed;Object variable or With block variable not set
+12/03/2013 13:25;-2147217871;[frmUserGRCons.Form_KeyPress];Tempo excedido

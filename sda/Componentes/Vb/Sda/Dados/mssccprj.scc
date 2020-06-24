@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[bd_sda.vbp]
+SCC_Aux_Path =\\rcontrol01s\VSS\geral,
+SCC_Project_Name ="$/SDA/Componentes/Vb/Sda/Dados", SHXDAAAA

@@ -1,0 +1,210 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\PROJVB6\SISMED\User\Package (2)
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Crxlat32.dll=C:\WINDOWS\system32\crystal\Crxlat32.dll
+
+[Package|Standard Setup Package 1|Files Released]
+u2LBAR.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+crystal=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\SISMED\DLLS\busSisMed.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\tdbgpp.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\SISMED\SisMed.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\SISMED\DLLS\busSisMed.dll=Yes
+C:\WINDOWS\system32\comctl32.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\tdbg6.ocx=Yes
+C:\WINDOWS\system32\tdbgpp.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\Crystl32.OCX=Yes
+C:\WINDOWS\system32\crpe32.dll=Yes
+C:\WINDOWS\system32\Implode.dll=Yes
+C:\WINDOWS\system32\Crpaig80.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\mfc42.dll=Yes
+C:\WINDOWS\system32\crystal\Crxlat32.dll=Yes
+C:\WINDOWS\system32\p2bbde.dll=Yes
+C:\WINDOWS\system32\P2bbnd.dll=Yes
+C:\WINDOWS\system32\p2bdao.dll=Yes
+C:\WINDOWS\system32\crystal\p2bxbse.dll=Yes
+C:\WINDOWS\system32\p2ctdao.dll=Yes
+C:\WINDOWS\system32\p2irdao.dll=Yes
+C:\WINDOWS\system32\crystal\p2sifmx.dll=Yes
+C:\WINDOWS\system32\P2smon.dll=Yes
+C:\WINDOWS\system32\p2sodbc.dll=Yes
+C:\WINDOWS\system32\crystal\p2sora7.dll=Yes
+C:\WINDOWS\system32\crystal\p2ssql.dll=Yes
+C:\WINDOWS\system32\crystal\p2ssyb10.dll=Yes
+C:\WINDOWS\system32\crystal\p2soledb.dll=Yes
+C:\WINDOWS\system32\crystal\u2ddisk.dll=Yes
+C:\WINDOWS\system32\crystal\u2dmapi.dll=Yes
+C:\WINDOWS\system32\crystal\u2dnotes.dll=Yes
+C:\WINDOWS\system32\crystal\u2dpost.dll=Yes
+C:\WINDOWS\system32\crystal\u2dvim.dll=Yes
+C:\WINDOWS\system32\crystal\u2dapp.dll=Yes
+C:\WINDOWS\system32\crystal\u2fcr.dll=Yes
+C:\WINDOWS\system32\crystal\u2fhtml.dll=Yes
+C:\WINDOWS\system32\crystal\u2fodbc.dll=Yes
+C:\WINDOWS\system32\crystal\u2frec.dll=Yes
+C:\WINDOWS\system32\crystal\u2frtf.dll=Yes
+C:\WINDOWS\system32\crystal\u2fsepv.dll=Yes
+C:\WINDOWS\system32\crystal\u2ftext.dll=Yes
+C:\WINDOWS\system32\crystal\u2fwks.dll=Yes
+C:\WINDOWS\system32\crystal\u2fwordw.dll=Yes
+C:\WINDOWS\system32\crystal\u2fxls.dll=Yes
+C:\WINDOWS\system32\crystal\u25dts.dll=Yes
+C:\WINDOWS\system32\crystal\u2l2000.dll=Yes
+C:\WINDOWS\system32\crystal\u2lcom.dll=Yes
+C:\WINDOWS\system32\crystal\u2ldts.dll=Yes
+C:\WINDOWS\system32\crystal\u2lsamp1.dll=Yes
+C:\WINDOWS\system32\crystal\u252000.dll=Yes
+C:\WINDOWS\system32\sscsdk80.dll=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\SISMED\SisMed.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\SISMED\DLLS\busSisMed.dll=$(WinSysPath)
+C:\WINDOWS\system32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\tdbg6.ocx=$(WinSysPath)
+C:\WINDOWS\system32\tdbgpp.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\Crystl32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\crpe32.dll=$(WinSysPath)
+C:\WINDOWS\system32\Implode.dll=$(AppPath)
+C:\WINDOWS\system32\Crpaig80.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPath)
+C:\WINDOWS\system32\mfc42.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\Crxlat32.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bbde.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2bbnd.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2bdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2ctdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2irdao.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINDOWS\system32\P2smon.dll=$(WinSysPath)
+C:\WINDOWS\system32\p2sodbc.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\p2sora7.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\p2ssql.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\p2soledb.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2dpost.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2dvim.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2dapp.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2fcr.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2frec.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2frtf.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2ftext.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2fwks.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2fxls.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u25dts.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2l2000.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2lcom.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2ldts.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u2lsamp1.dll=$(WinSysPath)
+C:\WINDOWS\system32\crystal\u252000.dll=$(WinSysPath)
+C:\WINDOWS\system32\sscsdk80.dll=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\SISMED\SisMed.exe=Yes
+C:\WINDOWS\system32\Implode.dll=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SisMed
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SisMed
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SisMed]
+Icon1=SisMed.exe
+Title1=SisMed
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\PROJVB6\SISMED\User\Package (2)
+ProjectFolder=C:\PROJVB6\SISMED\User
+ServerSideCab=
+File1=C:\PROJVB6\SISMED\User\Package (2)\setup.exe
+File2=C:\PROJVB6\SISMED\User\Package (2)\Setup.Lst
+File3=C:\PROJVB6\SISMED\User\Package (2)\SisMed.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

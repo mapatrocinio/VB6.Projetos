@@ -1,0 +1,10 @@
+VBGROUP 5.0
+Project=..\..\..\..\..\Acesso\Componentes\Vb\Acesso\Dados\bd_Acesso.vbp
+Project=..\..\..\..\..\Contac\Componentes\Vb\Contac\Dados\bd_Contac.vbp
+Project=..\..\..\..\..\Acesso\Componentes\Vb\Template\Error\objTrataErroAcesso.vbp
+Project=..\..\..\..\..\Acesso\Componentes\Vb\Template\Executor\objExecutorAcesso.vbp
+Project=..\..\..\..\..\Contac\Componentes\Vb\Template\Error\objTrataErroContac.vbp
+Project=..\..\..\..\..\Contac\Componentes\Vb\Template\Executor\objExecutorContac.vbp
+Project=..\..\..\..\..\Contac\Componentes\Vb\Contac\Negocios\ng_Contac.vbp
+Project=..\..\..\..\..\Acesso\Componentes\Vb\Acesso\Negocios\ng_Acesso.vbp
+StartupProject=..\Dados\bd_sda.vbp

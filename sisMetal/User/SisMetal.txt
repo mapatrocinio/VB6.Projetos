@@ -1,0 +1,29 @@
+11/06/2015 22:38;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 22:47;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 22:55;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:02;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:09;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:09;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:10;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:12;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:12;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:36;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:36;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:38;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:38;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:38;0;[frmUserRelContas.cmdRelatorio_Click];
+11/06/2015 23:39;0;[frmUserRelContas.cmdRelatorio_Click];
+04/07/2015 00:57;0;[frmRelEstoqueProd.cmdRelatorio_Click];
+05/07/2015 21:10;-2147467259;[DatAplerDatabase.RunSPReturnRS]Tempo excedido | sql: Select FUNCIONARIO.usuario, FUNCIONARIO.senha, FUNCIONARIO.nivel, FUNCIONARIO.PESSOAID, PESSOA.NOME  FROM FUNCIONARIO INNER JOIN PESSOA ON PESSOA.PKID = FUNCIONARIO.PESSOAID  WHERE usuario =  'MIGUEL' AND INDEXCLUIDO =  'N'.[clsGeral.ExecutarSQL];Tempo excedido
+06/07/2015 23:29;-2147217900;[DatAplerDatabase.RunSPReturnRS]Incorrect syntax near the keyword 'FROM'. | sql: SELECT PEDIDOVENDA.*,  VR_TOT_PEDIDO = isnull((SELECT ISNULL(SUM(VALOR),0) + ISNULL(SUM(VALOR_INSTALACAO),0) + ISNULL(SUM(VALOR_FRETE),0),  VRCALCDESCONTO = isnull((SELECT ISNULL(SUM(VALOR),0) + ISNULL(SUM(VALOR_INSTALACAO),0) + ISNULL(SUM(VALOR_FRETE),0),  VRCALCTOTAL = isnull((SELECT ISNULL(SUM(VALOR),0) + ISNULL(SUM(VALOR_INSTALACAO),0) + ISNULL(SUM(VALOR_FRETE),0),  FROM ITEM_PEDIDOVENDA WHERE ITEM_PEDIDOVENDA.PEDIDOVENDAID = PEDIDOVENDA.PKID),0)  FROM PEDIDOVENDA  WHERE PEDIDOVENDA.PKID = 39.[clsPedidoVenda.SelecionarPedidoVenda];Incorrect syntax near the keyword 'FROM'.
+06/07/2015 23:29;364;SisMetal;Object was unloaded
+06/07/2015 23:34;-2147217900;[DatAplerDatabase.RunSPReturnRS]Incorrect syntax near the keyword 'FROM'. | sql: SELECT PEDIDOVENDA.*,  VR_TOT_PEDIDO = isnull((SELECT ISNULL(SUM(VALOR),0) + ISNULL(SUM(VALOR_INSTALACAO),0) + ISNULL(SUM(VALOR_FRETE),0),    FROM ITEM_PEDIDOVENDA WHERE ITEM_PEDIDOVENDA.PEDIDOVENDAID = PEDIDOVENDA.PKID),0)  VRCALCDESCONTO = 0,  VRCALCTOTAL = VR_TOT_PEDIDO  FROM PEDIDOVENDA  WHERE PEDIDOVENDA.PKID = 39.[clsPedidoVenda.SelecionarPedidoVenda];Incorrect syntax near the keyword 'FROM'.
+06/07/2015 23:34;364;SisMetal;Object was unloaded
+06/07/2015 23:39;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'VR_TOT_PEDIDO'. | sql: SELECT PEDIDOVENDA.*,  VR_TOT_PEDIDO = isnull((SELECT ISNULL(SUM(VALOR),0) + ISNULL(SUM(VALOR_INSTALACAO),0) + ISNULL(SUM(VALOR_FRETE),0)    FROM ITEM_PEDIDOVENDA WHERE ITEM_PEDIDOVENDA.PEDIDOVENDAID = PEDIDOVENDA.PKID),0),  VRCALCDESCONTO = 0,  VRCALCTOTAL = VR_TOT_PEDIDO  FROM PEDIDOVENDA  WHERE PEDIDOVENDA.PKID = 39.[clsPedidoVenda.SelecionarPedidoVenda];Invalid column name 'VR_TOT_PEDIDO'.
+06/07/2015 23:39;364;SisMetal;Object was unloaded
+10/07/2015 21:54;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+10/07/2015 21:54;364;SisMetal;Object was unloaded
+10/07/2015 21:54;3265;ADODB.Fields;O item não pode ser encontrado na coleção correspondente ao nome ou ao ordinal solicitado.
+10/07/2015 21:54;364;SisMetal;Object was unloaded
+14/07/2015 00:40;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'FUNCIONARIOID'. | sql: SELECT  PEDIDOVENDA.PKID, CONVERT(DATETIME, convert(VARCHAR(10), DATA,103), 103) AS DATA,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoEspecie), 0) AS PgtoEspecie,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoCartao), 0) AS PgtoCartao,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoCartaoDeb), 0) AS PgtoCartaoDeb,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoCheque), 0) AS PgtoCheque,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoFatura), 0) AS PgtoFatura   FROM PEDIDOVENDA  LEFT JOIN vw_cons_t_cred_ped ON vw_cons_t_cred_ped.PKID = PEDIDOVENDA.PKID WHERE PEDIDOVENDA.FUNCIONARIOID = 4 AND CONVERT(DATETIME, convert(VARCHAR(10), DATA,103), 103) = convert(datetime, '14/07/2015',103) GROUP BY PEDIDOVENDA.PKID, CONVERT(DATETIME, convert(VARCHAR(10), DATA,103), 103).[clsGeral.ExecutarSQL];Invalid column name 'FUNCIONARIOID'.
+14/07/2015 00:43;-2147217900;[DatAplerDatabase.RunSPReturnRS]Invalid column name 'FUNCIONARIOID'. | sql: SELECT  PEDIDOVENDA.PKID, CONVERT(DATETIME, convert(VARCHAR(10), DATA,103), 103) AS DATA,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoEspecie), 0) AS PgtoEspecie,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoCartao), 0) AS PgtoCartao,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoCartaoDeb), 0) AS PgtoCartaoDeb,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoCheque), 0) AS PgtoCheque,  ISNULL(SUM(vw_cons_t_cred_ped.PgtoFatura), 0) AS PgtoFatura   FROM PEDIDOVENDA  LEFT JOIN vw_cons_t_cred_ped ON vw_cons_t_cred_ped.PKID = PEDIDOVENDA.PKID WHERE PEDIDOVENDA.FUNCIONARIOID = 4 AND CONVERT(DATETIME, convert(VARCHAR(10), DATA,103), 103) = convert(datetime, '14/07/2015',103) GROUP BY PEDIDOVENDA.PKID, CONVERT(DATETIME, convert(VARCHAR(10), DATA,103), 103).[clsGeral.ExecutarSQL];Invalid column name 'FUNCIONARIOID'.

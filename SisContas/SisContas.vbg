@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=User\SisContas.vbp
+Project=Bus\busSisContas.vbp
+Project=Dat\datSisContas.vbp

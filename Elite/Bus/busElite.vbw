@@ -1,0 +1,17 @@
+clsGeral = 10, 73, 670, 502, C
+clsRegistro = 88, 116, 696, 639, C
+clsMotorista = 19, 107, 724, 518, C
+clsPessoa = 110, 145, 713, 463, C
+clsBanco = 154, 203, 713, 633, C
+clsOrigem = 22, 29, 627, 403, C
+clsVeiculo = 0, 0, 559, 430, C
+clsFuncionario = 0, 0, 0, 0, C
+clsModelo = 0, 0, 0, 0, C
+clsPacote = 66, 87, 671, 405, C
+clsAgenciaCNPJ = 66, 87, 669, 405, C
+clsMarca = 132, 174, 691, 604, C
+clsAgencia = 0, 0, 603, 318, C
+clsServicoFim = 0, 0, 0, 0, C
+clsHistoricoServico = 44, 58, 649, 376, C
+mdlGlobalFunction = 0, 0, 0, 0, C
+clsServico = 88, 116, 691, 434, Z

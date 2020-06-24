@@ -1,0 +1,466 @@
+.relatorio_cabecalho
+{
+    FONT-SIZE: 16;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+}
+.relatorio_label
+{
+    FONT-SIZE: 11;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.titulo_tabela
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6e6e6
+}
+.detalhe_tabela
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+
+.texto-titulo-HelpOnline
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    BACKGROUND-IMAGE: url(imagens/azul_claro.gif);
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.link_botao_login:link
+{
+    FONT-SIZE: 8pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao_login:visited
+{
+    FONT-SIZE: 8pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao_login:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao_login:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao_rodape:link
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao_rodape:visited
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao_rodape:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao_rodape:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao:link
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666; 
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao:visited
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666; 
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao:active
+{
+    FONT-SIZE: 8pt;
+    COLOR: #666666; 
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_botao:hover
+{
+    FONT-SIZE: 8pt;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.botaoazul
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: xx-small;
+    BORDER-BOTTOM-WIDTH: 1px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #97afc4;
+    BORDER-RIGHT-WIDTH: 1px
+}
+.padraoccs2
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: x-small;
+    BORDER-BOTTOM-WIDTH: 1px;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e9e1f0;
+    BORDER-RIGHT-WIDTH: 1px
+}
+.camposinativos
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT: 1px solid;
+    COLOR: #666666;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #cccccc
+}
+
+.texto
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.link_Campo:link
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_Campo:visited
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_Campo:active
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_Campo:hover
+{
+    FONT-SIZE: xx-small;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.link_help:link
+{
+    FONT-SIZE: x-small;
+    COLOR: #666666;
+    FONT-FAMILY: Arial
+    TEXT-DECORATION: none
+}
+.link_help:visited
+{
+    FONT-SIZE: x-small;
+    COLOR: #666666;
+    FONT-FAMILY: Arial
+    TEXT-DECORATION: none
+}
+.link_help:active
+{
+    FONT-SIZE: x-small;
+    COLOR: #666666;
+    FONT-FAMILY: Arial
+    TEXT-DECORATION: none
+}
+.link_help:hover
+{
+    FONT-SIZE: x-small;
+    COLOR: #000000;
+    FONT-FAMILY: Arial
+    TEXT-DECORATION: none
+}
+.link_Campo_Help:link
+{
+    FONT-SIZE: 10pt;
+    COLOR: #666666;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.link_Campo_Help:visited
+{
+    FONT-SIZE: 10pt;
+    COLOR: #666666;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.link_Campo_Help:active
+{
+    FONT-SIZE: 10pt;
+    COLOR: #666666;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.link_Campo_Help:hover
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+.verde
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: x-small;
+    BORDER-LEFT: 1px solid;
+    COLOR: #666666;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #e6f0ec
+}
+.amarelo
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-SIZE: x-small;
+    BORDER-LEFT: 1px solid;
+    COLOR: #666666;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f6f5de
+}
+.cyan
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: xx-small;
+    BORDER-BOTTOM-WIDTH: 1px;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #abd6d6;
+    BORDER-RIGHT-WIDTH: 1px
+}
+.vinho
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: xx-small;
+    BORDER-BOTTOM-WIDTH: 1px;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ece6ec;
+    BORDER-RIGHT-WIDTH: 1px
+}
+.botaoverde
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: xx-small;
+    BORDER-BOTTOM-WIDTH: 1px;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #c7dfdb;
+    BORDER-RIGHT-WIDTH: 1px
+}
+.branco
+{
+    FONT-SIZE: xx-small;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.azul
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: xx-small;
+    BORDER-LEFT-COLOR: #666666;
+    BACKGROUND-IMAGE: url(imagens/azul_claro.gif);
+    BORDER-BOTTOM-WIDTH: 1px;
+    BORDER-BOTTOM-COLOR: #666666;
+    COLOR: #ffffff;
+    BORDER-TOP-COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BORDER-RIGHT-WIDTH: 1px;
+    BORDER-RIGHT-COLOR: #666666
+}
+.seleclinha
+{
+    BACKGROUND-COLOR: #cfdce8
+}
+.deseleclinha
+{
+    BACKGROUND-COLOR: #ffffff
+}
+.alink
+{
+    COLOR: white
+}
+.amarelobotao
+{
+    BORDER-TOP-WIDTH: 1px;
+    BORDER-LEFT-WIDTH: 1px;
+    FONT-SIZE: xx-small;
+    BACKGROUND-IMAGE: url(imagens/amarelo.gif);
+    BORDER-BOTTOM-WIDTH: 1px;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BORDER-RIGHT-WIDTH: 1px
+}
+.lin-1-1
+{
+    FONT-SIZE: x-small;
+    COLOR: #666666;
+    FONT-FAMILY: Arial
+}
+
+.iframe_bars
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    SCROLLBAR-FACE-COLOR: #cfdce8;
+    SCROLLBAR-HIGHLIGHT-COLOR: #cfdce8;
+    BORDER-LEFT: medium none;
+    SCROLLBAR-SHADOW-COLOR: #97afc4;
+    SCROLLBAR-3DLIGHT-COLOR: #97afc4;
+    SCROLLBAR-ARROW-COLOR: #97afc4;
+    SCROLLBAR-TRACK-COLOR: #cfdcde;
+    BORDER-BOTTOM: medium none;
+    SCROLLBAR-DARKSHADOW-COLOR: #cfdce8;
+    SCROLLBAR-BASE-COLOR: #cfdce8
+}
+.titulo_cadastro
+{
+    FONT-SIZE: 13pt;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial
+}
+
+.titulo
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 11pt;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.linha_clara
+{
+    FONT-SIZE: x-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.link_titulo
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+
+.linha_tabela
+{
+    BORDER-BOTTOM: #b0c4de 1px solid;
+    VERTICAL-ALIGN: top
+}
+
+.linha_nao_selecionada
+{
+    FONT-SIZE: x-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.linha_selecionada
+{
+    FONT-SIZE: x-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #bee4f8
+}
+.LabelObrigatorio
+{
+    FONT-SIZE: x-small;
+    COLOR: #cc6666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.textbox
+{
+    BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: gray 1px solid;
+    BORDER-LEFT: gray 1px solid;
+    BORDER-BOTTOM: gray 1px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+.textbox_disabled
+{
+    BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: gray 1px solid;
+    BORDER-LEFT: gray 1px solid;
+    COLOR: gray;
+    BORDER-BOTTOM: gray 1px solid;
+    BACKGROUND-COLOR: #e2e2e2
+}
+.combobox
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: gray 1px solid;
+    BORDER-LEFT: gray 1px solid;
+    BORDER-BOTTOM: gray 1px solid;
+    BACKGROUND-COLOR: #ffffff
+}
+.combobox_disabled
+{
+    FONT-SIZE: xx-small;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: gray 1px solid;
+    BORDER-LEFT: gray 1px solid;
+    COLOR: gray;
+    BORDER-BOTTOM: gray 1px solid;
+    BACKGROUND-COLOR: #e2e2e2
+}
+
+
+
+
+

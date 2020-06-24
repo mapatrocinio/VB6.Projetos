@@ -1,0 +1,69 @@
+18/08/2002 11:27;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+18/08/2002 11:29;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+18/08/2002 13:01;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'TURNO'.
+18/08/2002 13:04;DatSisContas.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'DESPESA.TURNOID' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+18/08/2002 14:14;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+18/08/2002 14:14;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+18/08/2002 15:10;DatSisContas.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'DESPESA.VR_PAGO' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+18/08/2002 15:36;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in ORDER BY clause.
+18/08/2002 15:36;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in ORDER BY clause.
+18/08/2002 17:26;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+18/08/2002 17:29;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/08/2002 20:37;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Table 'LIVRO' is exclusively locked by user 'Admin' on machine 'COMPUTER'.
+19/08/2002 20:39;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/08/2002 22:14;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+21/08/2002 21:16;DatSisContas.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'SUBGRUPODESPESA' includes related records.
+21/08/2002 21:51;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+21/08/2002 21:51;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+21/08/2002 21:51;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+21/08/2002 21:56;DatSisContas.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'SUBGRUPODESPESA.GRUPODESPESAID' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+24/08/2002 11:42;DatSisContas.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'DESPESA.USUARIO' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+30/08/2002 15:52;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+31/08/2002 16:30;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+31/08/2002 19:34;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+02/09/2002 19:33;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+02/09/2002 19:35;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+07/09/2002 18:03;DatSisContas.RunSPReturnRS;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'SALDO'.  Make sure it exists and that its name is spelled correctly.
+07/09/2002 18:06;DatSisContas.RunSPReturnRS;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'SALDO'.  Make sure it exists and that its name is spelled correctly.
+08/09/2002 08:45;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+08/09/2002 09:36;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'DESCRICAO'.  Make sure you have typed the name correctly, and try the operation again.
+08/09/2002 09:36;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'DESCRICAO'.  Make sure you have typed the name correctly, and try the operation again.
+08/09/2002 14:48;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+08/09/2002 14:48;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+08/09/2002 14:49;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+08/09/2002 14:49;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+08/09/2002 14:53;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+19/01/2003 15:03;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+19/01/2003 15:04;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+19/01/2003 15:16;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+19/01/2003 15:22;DatSisContas.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 4.
+19/01/2003 17:09;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'CONTA.PKID = MOVIMENTACAO.CONTADEBITOID  LEFT JOIN CONTA AS CONTACRED ON CONTA.PKID = MOVIMENTACAO.CONTACREDITOID'.
+19/01/2003 17:10;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+19/01/2003 17:11;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+19/01/2003 17:36;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+19/01/2003 17:51;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+20/01/2003 09:40;DatSisContas.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'MOVIMENTACAO' includes related records.
+22/01/2003 22:22;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Cannot group on fields selected with '*' (MOVIMENTACAO).
+23/01/2003 20:46;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'CONTA'.
+23/01/2003 20:46;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'CONTA'.
+23/01/2003 20:47;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'CONTA'.
+23/01/2003 21:34;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in date in query expression 'MOVIMENTACAO.DATA >= #01/01/2003# AND MOVIMENTACAO.DATA <= #__/12/____# AND CONTADEBITOID <> NULL'.
+23/01/2003 21:34;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in date in query expression 'MOVIMENTACAO.DATA >= #01/01/2003# AND MOVIMENTACAO.DATA <= #__/12/____# AND CONTADEBITOID <> NULL'.
+26/01/2003 12:02;DatSisContas.RunSPReturnRS;0;
+26/01/2003 12:03;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Wrong number of arguments used with function in query expression 'IIF(ISNUMERIC(MAX() + 1), MAX() + 1, 1)'.
+26/01/2003 12:06;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The SELECT statement includes a reserved word or an argument name that is misspelled or missing, or the punctuation is incorrect.
+26/01/2003 12:07;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Circular reference caused by alias 'SEQUENCIALMOV' in query definition's SELECT list.
+27/01/2003 21:25;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+01/02/2003 12:04;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in FROM clause.
+01/02/2003 12:05;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in FROM clause.
+09/02/2003 11:51;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression '(NOT ISDATE(DESPESA.DT_PAGAMENTO)  AND DESPESA.TIPO='A' ORDER BY DESPESA.SEQUENCIAL DESC;'.
+14/02/2003 22:49;DatSisContas.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'MOVIMENTACAO.DESCRICAO' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+18/02/2003 00:55;DatSisContas.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'CONTA.PKID = 1ORDER BY CONTA.PKID'.
+22/02/2003 23:49;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'TIPOCONTA'.
+22/02/2003 23:51;DatSisContas.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'TIPOCONTA'.
+08/05/2004 23:01;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Nome da fonte de dados não encontrado e nenhum driver padrão especificado
+08/05/2004 23:03;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Nome da fonte de dados não encontrado e nenhum driver padrão especificado
+08/05/2004 23:03;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Nome da fonte de dados não encontrado e nenhum driver padrão especificado
+08/05/2004 23:04;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Nome da fonte de dados não encontrado e nenhum driver padrão especificado
+08/05/2004 23:04;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Nome da fonte de dados não encontrado e nenhum driver padrão especificado
+08/05/2004 23:05;DatSisContas.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Nome da fonte de dados não encontrado e nenhum driver padrão especificado

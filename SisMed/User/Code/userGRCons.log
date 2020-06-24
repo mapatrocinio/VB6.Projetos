@@ -1,0 +1,16 @@
+Line 28: Class TrueDBGrid60.TDBGrid of control grdGeral was not a loaded control class.
+Line 386: Class ComctlLib.StatusBar of control StatusBar1 was not a loaded control class.
+Line 476: Class MSMask.MaskEdBox of control mskDataPrinc was not a loaded control class.
+Line 31: The property name OleObjectBlob in grdGeral is invalid.
+Line 392: The property name _ExtentX in StatusBar1 is invalid.
+Line 393: The property name _ExtentY in StatusBar1 is invalid.
+Line 394: The property name SimpleText in StatusBar1 is invalid.
+Line 395: The property name _Version in StatusBar1 is invalid.
+Line 451: The property name Panels in StatusBar1 is invalid.
+Line 483: The property name _ExtentX in mskDataPrinc is invalid.
+Line 484: The property name _ExtentY in mskDataPrinc is invalid.
+Line 485: The property name _Version in mskDataPrinc is invalid.
+Line 488: The property name MaxLength in mskDataPrinc is invalid.
+Line 489: The property name Format in mskDataPrinc is invalid.
+Line 490: The property name Mask in mskDataPrinc is invalid.
+Line 491: The property name PromptChar in mskDataPrinc is invalid.

@@ -1,0 +1,4 @@
+20/09/2004 15:13;-2147467259;1 - Erro tratado na Função Sleep;[DatSisContasDatabase.RunSPReturnRS]
+20/09/2004 15:13;-2147467259;2 - Erro tratado na Função Sleep;[DatSisContasDatabase.RunSPReturnRS]
+05/02/2006 23:39;-2147467259;1 - Erro tratado na Função Sleep;[DatSisContasDatabase.RunSPReturnRS]
+05/02/2006 23:39;-2147467259;2 - Erro tratado na Função Sleep;[DatSisContasDatabase.RunSPReturnRS]

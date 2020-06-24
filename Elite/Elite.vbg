@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=User\Elite.vbp
+Project=Dat\datElite.vbp
+Project=Bus\busElite.vbp

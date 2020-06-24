@@ -1,0 +1,10 @@
+clsGeral = 44, 44, 375, 360, C
+Function = 88, 88, 419, 404, C
+clsSubGrupoDespesa = 0, 0, 331, 316, C
+clsFormaPgto = 154, 154, 485, 470, C
+clsLivro = 0, 0, 330, 316, C
+clsGrupoDespesa = 154, 154, 484, 470, C
+clsDespesa = 66, 66, 483, 388, C
+clsMovimentacao = 0, 0, 397, 316, C
+clsSaldo = 132, 132, 463, 448, C
+clsConta = 22, 22, 357, 344, C

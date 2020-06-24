@@ -1,0 +1,32 @@
+
+<SCRIPT LANGUAGE=vbscript RUNAT=Server>
+	Sub Session_OnStart
+		Session("Indicador_Interno_Externo") = "I"
+		'DESENVOLVIMENTO
+		Session("path_contac") = "http://sinfo-60rc/contac/"
+		Session("path_sda") = "http://sinfo-60rc/sda/"
+		'PRODUÇÃO
+		'Session("path_contac") = "http://intranet.inmetro.gov.br/contac/"
+		'Session("path_sda") = "http://intranet.inmetro.gov.br/sda/"
+		Session("Indicador_notebook") = "N" 'Assume S/
+	End Sub
+	
+	Sub Application_OnStart
+		'Indicador se sistema está rodando na intranet ou no notenook
+		Application("Indicador_notebook") = "N" 'Assume S/N
+		Application("LinkRTF") = "http://intranet.inmetro.gov.br/laf"
+		
+'		'De onde o template é retirado para ser exportado pelo sql server 
+'		Application("CaminhoVirtual")= "http://intranet01/sda"
+'		Application("DeTemplate")= server.MapPath("bd") 
+'		'Para onde o banco de dados é Exportado
+'		Application("ParaAuditoria") = server.MapPath("bd\exportacao")
+'		'Para onde o banco de dados a ser importado é jogado durante o upload
+'	
+'		Application("PathUpload") = server.MapPath("bd\Importacao")
+'		Application("LinkRTF") = "http://Divit-15rc/laf"
+'		'Se for voltado para internet , setar como 1
+'		Application("Internet") = 0
+	end sub
+	
+</SCRIPT>

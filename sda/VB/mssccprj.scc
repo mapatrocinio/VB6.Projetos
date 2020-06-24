@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[SDA.vbp]
+SCC_Aux_Path = "\\rcontrol01s\VSS\geral"
+SCC_Project_Name = "$/SDA/VB", SAXDAAAA

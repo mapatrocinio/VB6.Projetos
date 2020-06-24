@@ -1,0 +1,10 @@
+clsGeral = 0, 0, 331, 316, C
+Database = 22, 22, 353, 338, Z
+clsSubGrupoDespesa = 22, 22, 353, 338, C
+clsFormaPgto = 0, 0, 331, 316, C
+clsMovimentacao = 22, 22, 419, 338, C
+clsLivro = 22, 22, 352, 338, C
+clsGrupoDespesa = 0, 0, 0, 0, C
+clsDespesa = 88, 88, 505, 410, C
+clsSaldo = 132, 132, 462, 448, C
+clsConta = 66, 66, 401, 388, C

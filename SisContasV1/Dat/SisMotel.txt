@@ -1,0 +1,472 @@
+08/09/2001 00:13;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:15;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:18;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:20;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:27;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:30;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:31;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:32;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:37;DatSisMotel.RunSPReturnRS;3706;ADO não pôde encontrar o provedor especificado.
+08/09/2001 00:39;DatSisMotel.RunSPReturnRS;3706;ADO não pôde encontrar o provedor especificado.
+08/09/2001 00:40;DatSisMotel.RunSPReturnRS;3706;ADO não pôde encontrar o provedor especificado.
+08/09/2001 00:42;DatSisMotel.RunSPReturnRS;3706;ADO não pôde encontrar o provedor especificado.
+08/09/2001 00:43;DatSisMotel.RunSPReturnRS;3706;ADO não pôde encontrar o provedor especificado.
+08/09/2001 00:44;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+08/09/2001 00:45;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Driver Manager] Data source name not found and no default driver specified
+10/09/2001 15:55;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador ausente) na expressão de consulta 'TAB_PEDIDOITEM.PEDIDOID 23'.
+16/09/2001 15:00;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Não foi possível adicionar ou alterar registros, pois um registro relacionado é exigido na tabela 'PEDIDO'.
+16/09/2001 15:45;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador ausente) na expressão de consulta 'Format(DTPEDIDO, 'DD/MM/YYYY hh:mm' FROM PEDIDO WHERE ALOCACAOID = 1641 ORDER BY NRO'.
+16/09/2001 16:09;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+16/09/2001 16:09;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+16/09/2001 16:09;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+16/09/2001 16:11;DatSisMotel.RunSPReturnRS;0;
+18/09/2001 22:00;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O campo especificado 'PKID' poderia se referir a mais de uma tabela relacionada na cláusula FROM da instrução SQL.
+18/09/2001 22:00;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'DTPEDIDO' especificada como parte de uma função agregada.
+20/09/2001 21:53;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Instrução SQL inválida; esperado 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT' ou 'UPDATE'.
+20/09/2001 21:53;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Instrução SQL inválida; esperado 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT' ou 'UPDATE'.
+05/10/2001 22:06;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na cláusula FROM.
+05/10/2001 22:06;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+07/10/2001 13:10;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Número de valores da consulta e campos de destino não coincidem.
+07/10/2001 14:15;DatSisMotel.RunSP;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+07/10/2001 14:57;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Uso inválido de '.', '!' ou '()'. na expressão de consulta '(GRUPO.PKID =  APARTAMENTO.GRUPOID) (INNER JOIN  TAB_GRUPOESTAPTO ON (APARTAMENTO.PKID = TAB_GRUPOESTAPTO.APARTAMENTOID)'.
+07/10/2001 14:58;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+08/10/2001 13:31;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Função 'TAB_GRUPOESTAPTO.GRUPOESTOQUEID' indefinida na expressão.
+08/10/2001 14:09;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+08/10/2001 14:11;DatSisMotel.RunSPReturnRS;-2147217913;[Microsoft][Driver ODBC para Microsoft Access] Tipo de dados imcompatível na expressão de critério.
+08/10/2001 14:44;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador ausente) na expressão de consulta 'GRUPOESTOQUE.PKID = 1ORDER BY GRUPO.NOME, APARTAMENTO.NUMERO'.
+14/10/2001 12:44;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'LOCACO.PKID = 1654 GRUPOESTOQUE.TIPO = 'F''.
+14/10/2001 12:45;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+14/10/2001 14:30;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+16/10/2001 23:36;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'VENDA.NOME' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+16/10/2001 23:36;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+28/10/2001 13:04;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+01/12/2001 21:52;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'TAB_REQUISICAOMATERIAL' includes related records.
+04/12/2001 21:47;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The specified field 'QtdEstoque' could refer to more than one table listed in the FROM clause of your SQL statement.
+01/01/2002 13:40;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+01/01/2002 13:41;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+01/01/2002 15:05;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+01/01/2002 17:22;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:28;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:29;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'STATUS'.  Make sure you have typed the name correctly, and try the operation again.
+01/01/2002 17:30;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'CARTAOPROMOCIONAL.STATUSCADASTRO' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+09/01/2002 23:54;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression ''G' TEL2 = 'H' TEL3 = 'I' ENDERECO = 'C' CIDADE = 'E' BAIRRO = 'D' DTNASCIMENTO = #09/21/1970# ESTADO = 'F''.
+10/01/2002 00:37;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+11/01/2002 09:24;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+13/01/2002 07:21;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'CODMOTIVO ='.
+13/01/2002 07:51;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in UPDATE statement.
+13/01/2002 07:52;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'MOTIVODEVOL'.
+15/01/2002 21:08;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/01/2002 08:14;DatSisMotel.RunSPReturnRS;3707;Cannot change the ActiveConnection property of a Recordset object which has a Command object as its source.
+03/02/2002 07:20;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'VRCALCGORJETA > 0 AND LOCACAO.TURNORECEBEID = 114ORDER BY GARCOM.NOME'.
+07/02/2002 21:42;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+07/02/2002 21:43;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in UPDATE statement.
+07/02/2002 22:58;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'NOME'.  Make sure you have typed the name correctly, and try the operation again.
+13/02/2002 22:18;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'TAB_ITEMSUB' includes related records.
+14/02/2002 19:50;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'TAB_GRUPOESTINTER'.  Make sure it exists and that its name is spelled correctly.
+14/02/2002 19:51;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'CARDAPIOID'.  Make sure you have typed the name correctly, and try the operation again.
+14/02/2002 20:04;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 3.
+14/02/2002 20:05;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+14/02/2002 22:13;DatSisMotel.RunSP;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+15/02/2002 01:05;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'ESTOQUE.QTDESTOQUE' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+16/02/2002 08:49;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'TAB_ENTRADAMATERIAL' includes related records.
+20/02/2002 20:40;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The specified field 'PKID' could refer to more than one table listed in the FROM clause of your SQL statement.
+20/02/2002 20:47;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+20/02/2002 20:48;DatSisMotel.RunSP;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'FAIXACARTAOPROMOCIONAL'.  Make sure it exists and that its name is spelled correctly.
+20/02/2002 21:20;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'FAIXACARTAOPROMOCIONAL'.  Make sure it exists and that its name is spelled correctly.
+20/02/2002 21:21;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+20/02/2002 21:43;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'CLIENTECARTAOPROMOID'.  Make sure you have typed the name correctly, and try the operation again.
+20/02/2002 21:58;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+20/02/2002 21:59;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+21/02/2002 00:02;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'FAIXACARTAOPROMOCIONALID'.  Make sure you have typed the name correctly, and try the operation again.
+21/02/2002 00:09;DatSisMotel.RunSP;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+21/02/2002 00:30;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'LOCACAO'.
+11/03/2002 19:15;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'GRUPOESTOQUEID = 1ESTOQUEINTERMEDIARIOID = 136 AND PKID <> 108'.
+11/03/2002 19:15;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'GRUPOESTOQUEID = 1 ESTOQUEINTERMEDIARIOID = 136 AND PKID <> 108'.
+11/03/2002 19:16;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+11/03/2002 19:19;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'TAB_GRUPOESTESTINTER' includes related records.
+11/03/2002 19:25;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'AND ESTOQUEINTERMEDIARIOID = 115 AND PKID <> 49'.
+11/03/2002 19:56;DatSisMotel.RunSP;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'TAB_BAIXAESTOQUECONSINT'.  Make sure it exists and that its name is spelled correctly.
+15/03/2002 04:29;DatSisMotel.RunSPReturnRS;-2147217913;[Microsoft][ODBC Microsoft Access Driver] Data type mismatch in criteria expression.
+15/03/2002 04:34;DatSisMotel.RunSP;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'ESTQOUE'.  Make sure it exists and that its name is spelled correctly.
+19/06/2002 08:54;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+29/06/2002 23:03;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+29/06/2002 23:06;DatSisMotel.RunSP;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+29/06/2002 23:07;DatSisMotel.RunSP;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+29/06/2002 23:24;DatSisMotel.RunSP;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O registro não pode ser excluído ou alterado porque a tabela 'TAB_GRUPOESTCONSINT' inclui registros relacionados a ele.
+29/06/2002 23:28;DatSisMotel.RunSP;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O registro não pode ser excluído ou alterado porque a tabela 'TAB_GRUPOESTCONSINT' inclui registros relacionados a ele.
+29/06/2002 23:36;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+02/07/2002 07:17;DatSisMotel.RunSP;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+06/07/2002 21:21;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESTCONSINT'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+06/07/2002 21:22;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESTCONSINT'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+08/07/2002 06:27;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na cláusula FROM.
+08/07/2002 06:29;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na cláusula FROM.
+09/07/2002 06:19;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] Referência circular causada pelo alias 'CODIGO' na lista SELECT da definição da consulta.
+09/07/2002 06:19;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] Referência circular causada pelo alias 'CODIGO' na lista SELECT da definição da consulta.
+12/07/2002 07:00;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+12/07/2002 07:51;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução INSERT INTO contém o seguinte nome de campo desconhecido: 'VALOR' Certifique-se de que você digitou o nome corretamente e tente a operação novamente.
+12/07/2002 07:51;DatSisMotel.RunSP;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O campo 'TAB_ENTRADAMATERIAL.ITEM' não pode conter um valor nulo, pois a propriedade Required desse campo está definida como True. Digite um valor nesse campo.
+12/07/2002 23:29;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador faltando) na expressão de consulta '(TAB_REQUISICAOMATERIAL.ESTOQUEID =  ESTOQUE.PKID) LEFT JOIN GRUPOESTOQUE ON TAB_REQUISICAOMATERIAL.GRUPOESTOQUEID = GRUPOESTOQUE.PKID'.
+13/07/2002 20:27;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na cláusula FROM.
+13/07/2002 22:58;DatSisMotel.RunSP;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] Não foi possível encontrar a tabela de saída 'TAB_GRUPOESTINTER'.
+13/07/2002 22:59;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na instrução UPDATE.
+13/07/2002 23:00;DatSisMotel.RunSP;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESESTTINTER'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+13/07/2002 23:00;DatSisMotel.RunSP;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESESTTINTER'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+13/07/2002 23:04;DatSisMotel.RunSP;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESESTTINTER'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+15/07/2002 06:22;DatSisMotel.RunSP;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TABGRUPOESTESTINTER'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+15/07/2002 06:51;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+15/07/2002 06:53;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+15/07/2002 20:51;DatSisMotel.RunSPReturnRS;-2147217908;O comando de texto não foi definido para o objeto de comando.
+15/07/2002 20:55;DatSisMotel.RunSP;-2147217913;[Microsoft][Driver ODBC para Microsoft Access] Tipo de dados imcompatível na expressão de critério.
+15/07/2002 22:08;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+15/07/2002 22:19;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+15/07/2002 22:21;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+15/07/2002 22:23;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 01:18;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 01:18;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 01:47;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 01:52;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 01:58;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 02:06;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+16/07/2002 02:07;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 04:06;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/07/2002 04:32;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+16/07/2002 06:39;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução INSERT INTO contém o seguinte nome de campo desconhecido: 'TAB_DEPOSITOESTESTINTER' Certifique-se de que você digitou o nome corretamente e tente a operação novamente.
+16/07/2002 06:39;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução INSERT INTO contém o seguinte nome de campo desconhecido: 'TAB_DEPOSITOESTINTER' Certifique-se de que você digitou o nome corretamente e tente a operação novamente.
+16/07/2002 06:39;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução INSERT INTO contém o seguinte nome de campo desconhecido: 'TAB_DEPOSITOESTINTER' Certifique-se de que você digitou o nome corretamente e tente a operação novamente.
+16/07/2002 06:45;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução INSERT INTO contém o seguinte nome de campo desconhecido: 'TAB_DEPOSITOESTINTER' Certifique-se de que você digitou o nome corretamente e tente a operação novamente.
+17/07/2002 06:13;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+17/07/2002 06:30;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+17/07/2002 06:30;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+17/07/2002 06:33;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+17/07/2002 06:36;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+19/07/2002 22:00;DatSisMotel.RunSP;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+23/07/2002 20:35;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_BAIXAESTOQUECONSINTERNO'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+23/07/2002 23:04;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 2.
+23/07/2002 23:08;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+23/07/2002 23:09;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+23/07/2002 23:36;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+30/07/2002 07:29;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na instrução INSERT INTO.
+01/08/2002 08:02;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução INSERT INTO contém o seguinte nome de campo desconhecido: 'QUANTIDADE' Certifique-se de que você digitou o nome corretamente e tente a operação novamente.
+02/08/2002 23:53;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+03/08/2002 00:43;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 8.
+03/08/2002 00:46;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 4.
+03/08/2002 00:46;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 4.
+03/08/2002 01:02;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Não é possível adicionar ou alterar registros, pois é necessário que eles tenham um registro relacionado na tabela 'GRUPOESTOQUE'.
+03/08/2002 01:07;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Não é possível adicionar ou alterar registros, pois é necessário que eles tenham um registro relacionado na tabela 'GRUPOESTOQUE'.
+03/08/2002 01:07;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Não é possível adicionar ou alterar registros, pois é necessário que eles tenham um registro relacionado na tabela 'GRUPOESTOQUE'.
+09/08/2002 22:04;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'Format(ENTRADAMATERIAL.DATA,'DD/MM/YYYY hh:mm')' especificada como parte de uma função agregada.
+09/08/2002 22:04;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'Format(ENTRADAMATERIAL.DATAAQUISICAO,'DD/MM/YYYY hh:mm')' especificada como parte de uma função agregada.
+09/08/2002 23:03;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O campo especificado 'Descricao' pode se referir a mais de uma tabela relacionada na cláusula FROM da instrução SQL.
+10/08/2002 21:56;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O campo especificado 'Descricao' pode se referir a mais de uma tabela relacionada na cláusula FROM da instrução SQL.
+10/08/2002 22:02;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador faltando) na expressão de consulta ''.
+10/08/2002 22:03;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador faltando) na expressão de consulta ''.
+10/08/2002 22:04;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na expressão de consulta 'FAMILIAPRODUTOS.DESCRICAO = '<NÃO DEFINIDA>' and  Where Not IsNull(QtdMinima) And QtdMinima <> 0 And QtdEstoque < QtdMinima'.
+10/08/2002 22:04;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na expressão de consulta 'FAMILIAPRODUTOS.DESCRICAO = '<NÃO DEFINIDA>' and  Where Not IsNull(QtdMinima) And QtdMinima <> 0 And QtdEstoque < QtdMinima'.
+13/08/2002 07:27;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESTCONSINT'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+13/08/2002 07:27;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESTCONSINT'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+16/08/2002 06:08;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] Senha inválida.
+16/08/2002 06:10;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] Senha inválida.
+16/08/2002 22:57;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na cláusula FROM.
+16/08/2002 23:02;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] As alterações solicitadas para a tabela não foram satisfatórias já que criariam valores duplicados no índice, chave primária ou relação. Altere os dados no campo ou campos que contêm os dados duplicados, remova o índice ou redefina o índice para possibilitar entradas duplicadas e tente novamente.
+16/08/2002 23:03;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] As alterações solicitadas para a tabela não foram satisfatórias já que criariam valores duplicados no índice, chave primária ou relação. Altere os dados no campo ou campos que contêm os dados duplicados, remova o índice ou redefina o índice para possibilitar entradas duplicadas e tente novamente.
+16/08/2002 23:05;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] As alterações solicitadas para a tabela não foram satisfatórias já que criariam valores duplicados no índice, chave primária ou relação. Altere os dados no campo ou campos que contêm os dados duplicados, remova o índice ou redefina o índice para possibilitar entradas duplicadas e tente novamente.
+16/08/2002 23:05;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] As alterações solicitadas para a tabela não foram satisfatórias já que criariam valores duplicados no índice, chave primária ou relação. Altere os dados no campo ou campos que contêm os dados duplicados, remova o índice ou redefina o índice para possibilitar entradas duplicadas e tente novamente.
+16/08/2002 23:08;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] As alterações solicitadas para a tabela não foram satisfatórias já que criariam valores duplicados no índice, chave primária ou relação. Altere os dados no campo ou campos que contêm os dados duplicados, remova o índice ou redefina o índice para possibilitar entradas duplicadas e tente novamente.
+16/08/2002 23:09;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] As alterações solicitadas para a tabela não foram satisfatórias já que criariam valores duplicados no índice, chave primária ou relação. Altere os dados no campo ou campos que contêm os dados duplicados, remova o índice ou redefina o índice para possibilitar entradas duplicadas e tente novamente.
+19/08/2002 05:45;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESTCONSINT'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+19/08/2002 05:45;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESTCONSINT'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+19/08/2002 05:46;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][Driver ODBC para Microsoft Access] O mecanismo de banco de dados Microsoft Jet não encontrou a tabela de entrada ou consulta 'TAB_GRUPOESTCONSINT'. Certifique-se de que ela existe e de que seu nome está digitado corretamente.
+19/08/2002 06:16;DatSisMotel.RunSP;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O registro não pode ser excluído ou alterado porque a tabela 'TAB_BAIXAESTOQUEINTERMEDIARIO' inclui registros relacionados a ele.
+19/08/2002 06:16;DatSisMotel.RunSP;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] O registro não pode ser excluído ou alterado porque a tabela 'TAB_BAIXAESTOQUEINTERMEDIARIO' inclui registros relacionados a ele.
+20/08/2002 06:22;DatSisMotel.RunSP;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Não é possível adicionar ou alterar registros, pois é necessário que eles tenham um registro relacionado na tabela 'GRUPOESTOQUE'.
+21/08/2002 20:22;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] Sem suporte para a expressão de associação.
+21/08/2002 21:44;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador faltando) na expressão de consulta 'CHEQUE = '000000 AND BANCOID = 3 AND CONTA = '0000000000'  AND AGENCIA = '000' ' AND PKID <> 0'.
+21/08/2002 21:45;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na seqüência de caracteres na expressão de consulta 'CHEQUE = '000000' AND BANCOID = 3 AND CONTA = '0000000000'  AND AGENCIA = '000' ' AND PKID <> 0'.
+30/05/2002 17:35;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+30/05/2002 17:35;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+30/08/2002 05:59;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+30/08/2002 05:59;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+30/08/2002 18:26;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] A tabela 'TAB_BAIXAESTOQUE' foi bloqueada exclusivamente pelo usuário 'Admin' no computador 'MIGUEL'.
+30/08/2002 18:28;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+30/08/2002 18:33;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+30/08/2002 18:33;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe na operação JOIN.
+09/06/2002 10:33;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 11:31;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 11:36;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+09/06/2002 11:50;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 11:52;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 11:53;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 11:54;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 11:59;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 11:59;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 12:04;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Table 'TAB_RETORNOESTOQUEINTERMEDIARIO' is exclusively locked by user 'Admin' on machine 'COMPUTER'.
+09/06/2002 13:34;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'IIf(IsNull(TAB_CARDESTINTER.Tipo), CARDAPIO.Tipo, TAB_CARDESTINTER.Tipo) = GRUPOESTOQUE.Tipo  VENDA.DATA >= #06/08/2002 18:31# AND VENDA.DATA <= #06/09/2002 13:34#'.
+09/06/2002 13:59;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+09/06/2002 14:13;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+09/06/2002 14:13;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in FROM clause.
+09/06/2002 14:18;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Join expression not supported.
+09/06/2002 14:20;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+09/06/2002 15:23;DatSisMotel.RunSPReturnRS;3707;The application cannot change the ActiveConnection property of a Recordset object with a Command object as its source.
+10/06/2002 21:09;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+11/09/2002 06:06;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][Driver ODBC para Microsoft Access] A tabela 'TIPO_DIRETORIA' foi bloqueada exclusivamente pelo usuário 'Admin' no computador 'MIGUEL'.
+11/09/2002 06:36;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Erro de sintaxe (operador faltando) na expressão de consulta 'AND VENDA.DATA >= #06/09/2002 15:27# AND VENDA.DATA <= #09/11/2002 06:36#'.
+13/09/2002 20:49;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+13/09/2002 20:54;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+13/09/2002 21:49;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'PERIODO' especificada como parte de uma função agregada.
+13/09/2002 21:50;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução SELECT inclui uma palavra reservada ou um nome de argumento que está incorreto ou faltando, ou a pontuação está incorreta.
+13/09/2002 21:52;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] A instrução SELECT inclui uma palavra reservada ou um nome de argumento que está incorreto ou faltando, ou a pontuação está incorreta.
+14/09/2002 22:04;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'VENDA' especificada como parte de uma função agregada.
+20/09/2002 20:56;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][Driver ODBC para Microsoft Access] Parâmetros insuficientes. Eram esperados 1.
+29/10/2002 17:22;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'DESCTIPODIRETORIA' especificada como parte de uma função agregada.
+29/10/2002 17:23;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'CARDAPIO.DESCRICAO' especificada como parte de uma função agregada.
+29/10/2002 17:25;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][Driver ODBC para Microsoft Access] Você tentou executar uma consulta que não inclui a expressão 'DESCTIPODIRETORIA' especificada como parte de uma função agregada.
+08/09/2002 22:23;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error. in query expression 'Select NUMERO FROM APARTAMENTO WHERE APARTAMENTO.EXCLUIDO = False And INTERDITADO = False And Numero <> '001''.
+01/09/2002 20:19;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DIADASEMANA = -1 AND APARTAMENTO.NUMERO = '001' And GRUPOPERIODO.UPGRADE ='.
+01/09/2002 20:20;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DIADASEMANA = 4 AND APARTAMENTO.NUMERO = '001' And GRUPOPERIODO.UPGRADE ='.
+01/09/2002 20:20;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DIADASEMANA = -1 AND APARTAMENTO.NUMERO = '001' And GRUPOPERIODO.UPGRADE ='.
+01/09/2002 20:20;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DIADASEMANA = -1 AND APARTAMENTO.NUMERO = '001' And GRUPOPERIODO.UPGRADE ='.
+01/09/2002 20:21;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DIADASEMANA = 4 AND APARTAMENTO.NUMERO = '001' And GRUPOPERIODO.UPGRADE ='.
+01/09/2002 20:23;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DIADASEMANA = -1 AND APARTAMENTO.NUMERO = '001' And GRUPOPERIODO.UPGRADE ='.
+01/09/2002 20:24;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'DIADASEMANA = 4 AND APARTAMENTO.NUMERO = '001' And GRUPOPERIODO.UPGRADE ='.
+05/09/2002 20:05;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+05/09/2002 22:22;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in UPDATE statement.
+06/09/2002 17:49;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'FIRST LOCACAO.PKID'.
+06/09/2002 17:49;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in ORDER BY clause.
+06/09/2002 21:31;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+07/09/2002 16:30;DatSisMotel.RunSP;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+07/09/2002 16:31;DatSisMotel.RunSP;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+06/09/2002 18:05;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Join expression not supported.
+06/09/2002 22:24;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+06/09/2002 22:26;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Duplicate output destination 'VRCALCTROCO'.
+14/08/2002 21:00;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'TURNO.PERIODOID = 6 AND TURNO.DATA >= 14/08/2002 00:00 AND TURNO.DATA <= 14/08/2002 23:59'.
+14/08/2002 21:01;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'TURNO.PERIODOID = 6 AND TURNO.DATA >= 14/08/2002 00:00 AND TURNO.DATA <= 14/08/2002 23:59'.
+14/08/2002 22:40;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression '#14/08/2002 22:40# TURNOSAIDAID = 139 SAIU = True'.
+17/08/2002 19:22;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in FROM clause.
+17/08/2002 19:22;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in FROM clause.
+17/08/2002 21:05;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression ''A' VR_PAGO = 200 VALE = 'S' SUBGRUPODESPESAID = 1 FORMAPGTOID = 1'.
+17/08/2002 21:33;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in WHERE clause.
+17/08/2002 21:35;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'DTPAGAMENTO'.  Make sure you have typed the name correctly, and try the operation again.
+17/08/2002 21:35;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'DTPAGAMENTO'.  Make sure you have typed the name correctly, and try the operation again.
+22/08/2002 20:11;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+24/08/2002 11:10;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'GRUPODESPESA.PKID = SUBGRUPODESPESA.GRUPODESPESAID SUBGRUPODESPESA.CODIGO = '11''.
+24/08/2002 14:37;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression '(SUBGRUPODESPESA.PKID = DESPESA.SUBGRUPODESPESAID)  LEFT JOIN GRUPODESPESA ON GRUPODESPESA.PKID = SUBGRUPODESPESA.GRUPODESPESAID'.
+25/08/2002 18:10;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+25/08/2002 18:11;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+25/08/2002 20:21;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+26/08/2002 19:25;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'CHEQUE = 'NRO 'CHEQUE' AND BANCOID = 7 AND CONTA = 'CONTA'  AND AGENCIA = 'AGENCIA'  AND PKID <> 0'.
+26/08/2002 19:30;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'CHEQUE = '000002'' AND BANCOID = 3 AND CONTA = '0000000000'  AND AGENCIA = '000'  AND PKID <> 20'.
+03/09/2002 18:54;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'TURNOID = 161 DESPESA.TIPO = 'T''.
+03/09/2002 18:57;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'TURNOID = 162 DESPESA.TIPO = 'T''.
+03/09/2002 18:58;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'TURNOID = 162 DESPESA.TIPO = 'T''.
+12/01/2003 12:26;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The field 'PEDIDO.TURNOID' cannot contain a Null value because the Required property for this field is set to True.  Enter a value in this field.
+26/01/2003 22:24;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+26/01/2003 22:24;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+26/01/2003 22:25;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+26/01/2003 22:25;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+26/01/2003 22:26;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+01/02/2003 20:20;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+01/02/2003 22:22;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in INSERT INTO statement.
+02/02/2003 12:34;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+02/02/2003 14:04;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+21/02/2003 00:03;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in UPDATE statement.
+21/02/2003 00:21;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'True MOVAPOSFECHAOK = True'.
+06/04/2003 01:48;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in FROM clause.
+15/04/2003 20:28;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+15/04/2003 20:29;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+15/04/2003 20:29;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+26/02/2003 02:12;DatSisMotel.RunSPReturnRS;3705;The operation requested by the application is not allowed if the object is open.
+26/02/2003 02:12;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Table 'APARTAMENTO' is exclusively locked by user 'Admin' on machine 'COMPUTER'.
+26/02/2003 02:23;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Table 'Locacao' is exclusively locked by user 'Admin' on machine 'COMPUTER'.
+27/02/2003 02:12;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'False DTFECHAMENTO = #02/27/2003 02:12#'.
+27/02/2003 02:13;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+27/02/2003 02:14;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+27/02/2003 02:14;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+27/02/2003 02:14;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+27/02/2003 02:15;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+27/02/2003 02:16;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+27/02/2003 02:16;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Number of query values and destination fields are not the same.
+01/03/2003 03:31;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The SELECT statement includes a reserved word or an argument name that is misspelled or missing, or the punctuation is incorrect.
+01/03/2003 03:31;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The SELECT statement includes a reserved word or an argument name that is misspelled or missing, or the punctuation is incorrect.
+04/03/2003 19:08;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Table 'Locacao' is exclusively locked by user 'Admin' on machine 'COMPUTER'.
+13/03/2003 20:24;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+13/03/2003 21:41;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+13/03/2003 21:46;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in UPDATE statement.
+13/03/2003 21:47;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in UPDATE statement.
+16/03/2003 02:14;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You tried to execute a query that does not include the specified expression 'Format(DTEXTRA,'DD/MM/YYYY hh:mm')' as part of an aggregate function.
+16/03/2003 02:14;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You tried to execute a query that does not include the specified expression 'Format(DTEXTRA,'DD/MM/YYYY hh:mm')' as part of an aggregate function.
+19/03/2003 18:13;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine does not recognize 'CARDAPIORESUMO.*' as a valid field name or expression.
+19/03/2003 18:14;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine does not recognize 'CARDAPIORESUMO.*' as a valid field name or expression.
+19/03/2003 18:30;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in UPDATE statement.
+19/03/2003 18:43;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 18:43;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 19:10;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 19:27;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 19:28;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 21:32;DatSisMotel.RunSP;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 21:34;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 21:34;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 21:56;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+19/03/2003 22:02;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The INSERT INTO statement contains the following unknown field name: 'CARDAPIORESUMOID'.  Make sure you have typed the name correctly, and try the operation again.
+19/03/2003 22:04;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:05;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:07;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:09;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:11;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:14;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:19;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:21;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+19/03/2003 22:23;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The changes you requested to the table were not successful because they would create duplicate values in the index, primary key, or relationship.  Change the data in the field or fields that contain duplicate data, remove the index, or redefine the index to permit duplicate entries and try again.
+20/03/2003 20:15;DatSisMotel.RunSP;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+20/03/2003 20:50;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+20/03/2003 21:51;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+23/03/2003 01:33;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+23/03/2003 01:34;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+23/03/2003 01:35;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+26/03/2003 17:50;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+26/03/2003 17:50;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+26/03/2003 17:59;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+30/03/2003 03:00;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'TAB_BAIXAESTOQUEINTERMEDIARIO' includes related records.
+02/04/2003 06:03;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error (missing operator) in query expression 'PERIODO =  AND PKID <> 6'.
+02/04/2003 07:06;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+02/04/2003 23:56;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in INSERT INTO statement.
+02/04/2003 23:57;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in INSERT INTO statement.
+02/04/2003 23:58;DatSisMotel.RunSP;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+20/04/2003 05:38;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'CAMAREIRA'.
+20/04/2003 05:38;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] You cannot add or change a record because a related record is required in table 'CAMAREIRA'.
+30/04/2003 01:38;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+05/05/2003 23:20;DatSisMotel.RunSPReturnRS;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'DIADASEMANA'.  Make sure it exists and that its name is spelled correctly.
+05/05/2003 23:21;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 1.
+05/05/2003 23:27;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The specified field 'DIADASEMANA' could refer to more than one table listed in the FROM clause of your SQL statement.
+05/05/2003 23:27;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The specified field 'DIADASEMANA' could refer to more than one table listed in the FROM clause of your SQL statement.
+06/05/2003 00:10;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'TAB_GRUPOESTAPTO' includes related records.
+06/05/2003 00:10;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'TAB_GRUPOESTAPTO' includes related records.
+07/05/2003 01:01;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Invalid SQL statement; expected 'DELETE', 'INSERT', 'PROCEDURE', 'SELECT', or 'UPDATE'.
+07/05/2003 01:18;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The specified field 'PASSARDIASEG' could refer to more than one table listed in the FROM clause of your SQL statement.
+07/05/2003 01:19;DatSisMotel.RunSPReturnRS;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The specified field 'PASSARDIASEG' could refer to more than one table listed in the FROM clause of your SQL statement.
+07/05/2003 01:20;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+07/05/2003 01:20;DatSisMotel.RunSPReturnRS;-2147217904;[Microsoft][ODBC Microsoft Access Driver] Too few parameters. Expected 2.
+11/05/2003 07:23;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 07:24;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 07:24;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 07:24;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 07:24;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 07:25;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 07:26;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 07:26;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 08:07;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'ENTRADAMATERIAL' includes related records.
+11/05/2003 08:26;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in FROM clause.
+11/05/2003 08:26;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'ENTRADAMATERIAL' includes related records.
+11/05/2003 08:46;DatSisMotel.RunSP;-2147217900;[Microsoft][ODBC Microsoft Access Driver] Syntax error in JOIN operation.
+11/05/2003 08:46;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'ENTRADAMATERIAL' includes related records.
+11/05/2003 08:52;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'ENTRADAMATERIAL' includes related records.
+11/05/2003 09:19;DatSisMotel.RunSP;-2147217865;[Microsoft][ODBC Microsoft Access Driver] The Microsoft Jet database engine cannot find the input table or query 'TAB_RETONOESTOQUEINTERMEDIARIO'.  Make sure it exists and that its name is spelled correctly.
+11/05/2003 09:29;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'LOCACAO' includes related records.
+11/05/2003 09:37;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'LOCACAO' includes related records.
+11/05/2003 09:44;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'LOCACAO' includes related records.
+11/05/2003 09:44;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 09:45;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 09:45;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 09:45;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] Could not use '(unknown)'; file already in use.
+11/05/2003 09:46;DatSisMotel.RunSP;-2147467259;[Microsoft][ODBC Microsoft Access Driver] The record cannot be deleted or changed because table 'LOCACAO' includes related records.
+12/05/2003 07:58;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The SELECT statement includes a reserved word or an argument name that is misspelled or missing, or the punctuation is incorrect.
+12/05/2003 07:59;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The SELECT statement includes a reserved word or an argument name that is misspelled or missing, or the punctuation is incorrect.
+12/05/2003 07:59;DatSisMotel.RunSPReturnRS;-2147217900;[Microsoft][ODBC Microsoft Access Driver] The SELECT statement includes a reserved word or an argument name that is misspelled or missing, or the punctuation is incorrect.
